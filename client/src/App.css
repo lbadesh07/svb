@@ -1,0 +1,7 @@
+@layer base {
+  :root {
+    --main-color: white;
+    --text-size: 1.5rem;
+    --cube-scale: 0.8;
+  }
+}
