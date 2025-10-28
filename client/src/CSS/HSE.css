@@ -1,0 +1,35 @@
+#hseBanner::before {
+    content: "";
+    background: url('../assets/HSEBannerBG.png');
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-size: cover;
+    z-index: -1;
+}
+
+.hseBannerTitle {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.fontMon{
+    font-family: "Montserrat";
+    font-style: normal;
+}
+
+.hseBannerDesc{
+     font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.popins{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.HSEUL{
+    list-style:disc;
+}
