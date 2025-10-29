@@ -4,14 +4,30 @@
   font-style: normal;
 }
 
-.popins-bold{
+.popins-noweight {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.popins-bold {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
 
-.aboutCom{
+.aboutCom {
   font-family: "Montserrat";
   font-weight: bold;
   font-style: normal;
 }
+
+#aboutBanner {
+  content: "";
+  /* position: absolute; */
+  background: url('../assets/aboutBannerIMG.png') no-repeat;
+  width: 100vw;
+  height: 95vh;
+  background-size: cover;
+  z-index: -1;
+}
+

@@ -4,8 +4,28 @@
   font-style: normal;
 }
 
-.popins-bold{
+.popins-noweight {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.popins-bold {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  font-style: normal;
+}
+
+#fleetBanner::before {
+  content: "";
+  position: absolute;
+  background: url('../assets/fleetBannerIMG.png') no-repeat;
+  height: 95vh;
+  width: 100vw;
+  background-size: cover;
+  z-index: -1;
+}
+
+.fontMon {
+  font-family: "Montserrat";
   font-style: normal;
 }

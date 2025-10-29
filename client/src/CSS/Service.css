@@ -1,0 +1,9 @@
+#serviceBanner::before{
+    content: "";
+    background: url("../assets//serviceBannerIMG.png") no-repeat;
+    position: absolute;
+    width: 100vw;
+    height: 95vh;
+    background-size: cover;
+    z-index: -1;
+}

@@ -10,8 +10,14 @@ const AboutPage = () => {
     return (
         <>
             <div>
-                <LandingBanner></LandingBanner>
-                <div className='mx-auto w-fit flex flex-col gap-10'>
+                <div id='aboutBanner' className='w-screen h-[95vh]'>
+                    <div className='pl-[120px] pt-[150px]'> 
+                    <p className='text-white text-[4rem]  aboutCom leading-19'> <span className='text-[#FDC000]'>SVB Infra</span> <br /> Building the Future with <br /> Experience and Excellence</p>
+                    <p className='popins text-[20px] text-white mt-[18px]'>Providing fast, flexible, and professional earthmoving services statewide since 2003</p>
+                    <button className='mt-[40px] w-[9vw] h-[7vh] bg-[#FDC000] text-[#333333] popins-noweight font-semibold text-[20px] rounded-lg '>Contact Us</button>
+                    </div>
+                </div>
+                <div className='mx-auto w-fit flex flex-col gap-10 mt-[120px]'>
                     <p className='text-black popins text-[1.4rem] font-semibold underline decoration-[#FDC000] underline-offset-8'>About our company</p>
                     <div className='flex gap-7'>
                         <img src={bgIMG} className="w-[32vw] h-[59vh]" />

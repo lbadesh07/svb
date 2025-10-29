@@ -15,6 +15,15 @@
   z-index: 1; /* keep this above the background */
 }
 
+#landingBanner::before{
+  content: "";
+  position: absolute;
+  background: url('../assets/landingBannerIMG.jpeg') no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
 #infrastructure::before {
   content: "";
   position: absolute;

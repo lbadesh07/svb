@@ -26,6 +26,7 @@ const Landing = ({
   return (
     <div className="w-screen bg-[#F8F8F8]">
       <LandingBanner></LandingBanner>
+     
 
       <div className="flex flex-col gap-[20vh] my-30  w-screen">
         <div>

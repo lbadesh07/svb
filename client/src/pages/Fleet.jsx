@@ -25,7 +25,37 @@ const Fleet = () => {
     return (
         <>
             <div>
-                <LandingBanner></LandingBanner>
+                <div id='fleetBanner' className='w-screen h-[95vh]   '>
+                    <div className='flex flex-col gap-7 w-fit mx-auto pt-[157px]'>
+
+
+                        <div className='flex flex-col gap-4'>
+                            <p className='text-[4rem] fontMon font-bold text-white leading-20'>Powering <span className='text-[#FDC000]'>Progress</span>  with <br /> Modern Machinery</p>
+                            <p className='text-white text-[1rem] popins-noweight'>Equipped with advanced machinery, we deliver efficient, precise, and dependable <br /> results across all project scales.</p>
+                        </div>
+                        <div className='w-[52vw] h-[17vh]  bg-white rounded-2xl flex justify-evenly place-items-center'>
+                            <div className='flex flex-col gap-[20px] text-center'>
+                                <p className='popins-noweight text-[1.3rem] font-semibold text-[#333333]'>Total Machines</p>
+                                <p className='popins-noweight text-[1rem] font-normal text-[#333333]'>40+ Machines</p>
+                            </div>
+                            <div className='w-[1px] h-[70px] bg-[#333333]'></div>
+                            <div className='flex flex-col gap-[20px] text-center'>
+                                <p className='popins-noweight text-[1.3rem] font-semibold text-[#333333]'>Availability</p>
+                                <p className='popins-noweight text-[1rem] font-normal text-[#333333]'>Immediate</p>
+                            </div>
+                            <div className='w-[1px] h-[70px] bg-[#333333]'></div>
+                            <div className='flex flex-col gap-[20px] text-center'>
+                                <p className='popins-noweight text-[1.3rem] font-semibold text-[#333333]'>Fleet Diversity</p>
+                                <p className='popins-noweight text-[1rem] font-normal text-[#333333]'>Heavy Machinery</p>
+                            </div>
+                            <div className='w-[1px] h-[70px] bg-[#333333]'></div>
+                            <div className='flex flex-col gap-[20px] text-center'>
+                                <p className='popins-noweight text-[1.3rem] font-semibold text-[#333333]'>Successfull Projects</p>
+                                <p className='popins-noweight text-[1rem] font-normal text-[#333333]'>50+ Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <section>
                     <div className='flex flex-col gap-2 w-fit mx-40 my-30'>
                         <p className='text-[#333333] text-[1.6rem]  font-semibold underline decoration-[#FDC000] underline-offset-8 mb-6'>Our Powerfull Machines</p>
@@ -36,7 +66,7 @@ const Fleet = () => {
                     </div>
                     <div className=' flex gap-x-15 gap-y-10 w-[80vw] flex-wrap  mx-auto mb-20'>
                         {
-                          cardDetails.map((item) => (
+                            cardDetails.map((item) => (
                                 <div className='w-[24vw] h-[53vh]  flex flex-col gap-2 px-4 py-4 rounded-lg shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
                                     <img src={item.img} className="w-[22vw] h-[30vh]" />
                                     <p className=' text-[#333333] text-[1.7rem] font-semibold leading-8'>{item.title}</p>

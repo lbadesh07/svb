@@ -9,6 +9,7 @@ import PortFolio from "./pages/PortFolio";
 import Contactus from "./pages/Contactus";
 import HSE from "./pages/HSE";
 import Subpage1 from "./pages/Subpage1";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
@@ -21,7 +22,17 @@ const App = () => {
       {/* <PortFolio></PortFolio> */}
       {/* <Contactus></Contactus> */}
       {/* <HSE></HSE> */}
-      <Subpage1></Subpage1>
+      <Routes>
+        <Route path="/" element={<Landing></Landing>}/>
+        <Route path="/about" element={<AboutPage></AboutPage>}/>
+        <Route path="/services" element={<Service></Service>}/>
+        <Route path="/fleet" element={<Fleet></Fleet>}/>
+        <Route path="/portfolio" element={<PortFolio></PortFolio>}/>
+        <Route path="/contact" element={<Contactus></Contactus>}/>
+        <Route path="/hse" element={<HSE></HSE>}/>
+        
+      </Routes>
+      {/* <Subpage1></Subpage1> */}
       <Footer></Footer>
     </>
   );
