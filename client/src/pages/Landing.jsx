@@ -61,13 +61,13 @@ const Landing = () => {
               <img
                 src={constructionImg}
                 alt="Construction site"
-                className="rounded-2xl shadow-lg w-[50vw] h-[30vh] lg:w-[40vw] lg:h-[84vh]"
+                className="rounded-2xl shadow-lg w-[50vw] h-[32vh] lg:w-[40vw] lg:h-[84vh]"
               />
             </div>
 
            
             <div className="lg:w-[33vw] w-[50vw]  h-fit  flex flex-col">
-              <p className="popins lg:leading-16 text-[1.2rem] leading-7  lg:p-4 rounded-bl-2xl -ml-20 p-2 lg:-ml-56 bg-[#F8F8F8] text-black lg:text-[4rem] font-semibold">
+              <p className="popins lg:leading-16 text-[1.2rem] leading-7  lg:p-4 rounded-bl-2xl -ml-20 p-2 lg:-ml-56  text-black lg:text-[4rem] font-semibold">
                 Great Relationships,
                 <br /> Great <span></span>
                 <span className="text-[#FDC000]">Infrastructure</span>
