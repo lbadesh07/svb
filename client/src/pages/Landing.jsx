@@ -67,7 +67,7 @@ const Landing = () => {
 
            
             <div className="lg:w-[33vw] w-[50vw]  h-fit  flex flex-col">
-              <p className="popins lg:leading-16 text-[1.2rem] leading-7  lg:p-4 rounded-bl-2xl -ml-20 p-2 lg:-ml-56  text-black lg:text-[4rem] font-semibold">
+              <p className="popins lg:leading-16 text-[1.2rem] leading-7  lg:p-4 rounded-bl-2xl -ml-20 p-2 lg:-ml-56 bg-white  text-black lg:text-[4rem] font-semibold">
                 Great Relationships,
                 <br /> Great <span></span>
                 <span className="text-[#FDC000]">Infrastructure</span>
@@ -85,22 +85,22 @@ const Landing = () => {
                   some of the biggest names in construction and civil engineering
                   sector.
                 </p>
-                <button className="popins w-[18vw] mr-2 text-[10px] lg:text-[20px]  lg:w-[9vw] bg-[#FDC000]  py-2 rounded-md ">
+                <button className="popins w-[18vw] mr-3 text-[10px] lg:text-[20px]  lg:w-[9vw] bg-[#FDC000]  py-2 rounded-md ">
                   Know More
                 </button>
               </div>
             </div>
           </section>
-          <div className="flex gap-5  my-10 pl-[4vw] lg:pl-[9vw]">
-            <div className="border-2 border-[#FDC000] rounded-md flex lg:w-[12vw] w-[27vw] justify-evenly h-[5vh]   lg:h-[11vh] place-items-center">
+          <div className="flex gap-5 my-4  lg:my-10 pl-[4vw] lg:pl-[9vw]">
+            <div className="border lg:border-2 border-[#FDC000] rounded-md flex lg:w-[12vw] w-[27vw] justify-evenly h-[5vh]   lg:h-[11vh] place-items-center">
               <p className="popins text-lg lg:text-3xl font-semibold ">50+</p>
               <p className="popins font-medium text-[9px] lg:text-[15px] text-[#4D4D4D]  text-start">Successfull <br /> Project</p>
             </div>
-            <div className="border-2 border-[#FDC000] rounded-md flex lg:w-[12vw] w-[27vw] justify-evenly h-[5vh]   lg:h-[11vh] place-items-center">
+            <div className="border lg:border-2 border-[#FDC000] rounded-md flex lg:w-[12vw] w-[27vw] justify-evenly h-[5vh]   lg:h-[11vh] place-items-center">
               <p className="popins text-lg lg:text-3xl font-semibold ">100+</p>
               <p className="popins font-medium text-[9px] lg:text-[15px] text-[#4D4D4D]  text-start">Machines <br /> Equipments</p>
             </div>
-            <div className="border-2 border-[#FDC000] rounded-md flex lg:w-[12vw] w-[27vw] justify-evenly h-[5vh] lg:h-[11vh] place-items-center">
+            <div className="border lg:border-2 border-[#FDC000] rounded-md flex lg:w-[12vw] w-[27vw] justify-evenly h-[5vh] lg:h-[11vh] place-items-center">
               <p className="popins text-lg lg:text-3xl font-semibold ">27/7</p>
               <p className="popins font-medium text-[9px] lg:text-[15px] text-[#4D4D4D]  text-start">Anywhere <br /> Assistance</p>
             </div>
