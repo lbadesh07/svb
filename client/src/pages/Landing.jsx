@@ -48,7 +48,7 @@ const Landing = () => {
           {isMobile?<p className="text-white text-[10px] lg:text-[20px] popins">Delivering reliable infrastructure solutions <br /> with modern machinery  and <br /> expert execution.</p>:
           <p className="text-white text-[20px] popins">Delivering reliable infrastructure solutions with modern machinery <br /> and expert execution.</p>}
         </div>
-        <button className="lg:w-[10vw] lg:h-[7vh] w-[22vw] rounded-md text-[12px] h-[3vh] bg-[#FDC000] lg:rounded-md lg:text-[20px] popins-noweight font-semibold mt-[40px]">See Our Fleet</button>
+        <button className="lg:w-[10vw] lg:h-[7vh] w-[22vw] rounded-md text-[12px] py-1 lg:py-0 h-[3vh] bg-[#FDC000] lg:rounded-md lg:text-[20px] popins-noweight font-semibold mt-[40px]">See Our Fleet</button>
       </div>
         </div>
      
