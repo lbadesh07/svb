@@ -147,7 +147,7 @@ const Landing = () => {
               <p className="popins-bold text-[1rem] lg:text-[4rem] text-white lg:leading-20">Powering Your Future with <br /> Innovative Infrastructure <br /> Projects</p>
               <p className="text-white text-[] lg:text-[20px]">SVB Infra – Engineering the Future of Infrastructure</p>
             </div>
-            <button className="lg:ml-8 ml-4 popins-bold text-[9px] lg:text-[17px]  lg:w-[10vw] w-[15vw] bg-[#FDC000] py-1  lg:py-3 rounded-sm lg:rounded-md mt-7  lg:mt-15">Explore All</button>
+            <button className="lg:ml-8 ml-4 popins-bold text-[9px] lg:text-[17px]  lg:w-[10vw] w-[15vw] bg-[#FDC000] py-1  lg:py-3 rounded-sm lg:rounded-md mt-3  lg:mt-15">Explore All</button>
           </div>
           <div className=" flex w-full py-2 lg:py-6 relative ">
             {isMobile? <p className="text-[#4D4D4D] w-[40vw]  popins  text-[8px] lg:text-[16px] lg:mt-5 font-semibold ">We have successfully completed a wide range of  earthwork and excavation projects for leading  clients across Karnataka. Our portfolio includes  residential, commercial, and infrastructure  developments delivered with quality and precision.</p>:
