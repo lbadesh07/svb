@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 const Menu = () => {
 
   const [isMobile, setIsMobile] = useState(false);
+  const [popup, setPopup] = useState(false);
 
   const handleResize = () => {
     const width = window.innerWidth;
@@ -34,23 +35,77 @@ const Menu = () => {
           </Link>
         </div>
         {
-          isMobile ? <i class="fa-solid fa-bars text-[21px] text-white"></i> :
+          popup && <div
+            className="absolute right-5 top-[90px] w-[60vw] h-fit 
+  border border-white/20 
+  rounded-xl 
+  bg-white/10 
+  backdrop-blur-sm 
+  shadow-[0_4px_30px_rgba(0,0,0,0.1)] 
+  flex flex-col 
+  z-[999]"
+          >
+            <nav
+              id="menuNav"
+              className="flex flex-col text-[1.6rem] gap-5 h-fit list-none text-white z-[1000] p-4"
+            >
+              {[
+                { name: "About Us", link: "/about" },
+                { name: "Service", link: "/services" },
+                { name: "Our Fleet", link: "/fleet" },
+                { name: "Portfolio", link: "/portfolio" },
+                { name: "HSE", link: "/hse" },
+                { name: "Contact Us", link: "/contact" },
+              ].map((item) => (
+                <li key={item.link} className="relative group">
+                  <Link
+                    to={item.link}
+                    onClick={()=>setPopup(!popup)}
+                    className="relative text-white/90 transition-all duration-300 ease-in-out z-[1000]"
+                  >
+                    {item.name}
+                    <span className="absolute left-1/2 -bottom-[3px] w-0 h-[2px] bg-[#FDC000] transition-all duration-300 ease-in-out z-[1000] group-hover:left-0 group-hover:w-full"></span>
+                  </Link>
+                </li>
+              ))}
+            </nav>
+          </div>
+
+        }
+
+        {
+          isMobile ? <i class="fa-solid fa-bars text-[21px] text-white z-[1000]" onClick={() => setPopup(!popup)}></i> :
             <>
 
-              <nav
-                id="menuNav"
-                className=" flex  gap-7 h-fit  text-white z-[999]"
-              >
-                <li className="menuNavLinks"><Link to='/about'>About Us</Link> </li>
-                <li className="menuNavLinks"><Link to='/services'>Service</Link></li>
-                <li className="menuNavLinks"><Link to='/fleet'>Our Fleet</Link></li>
-                <li className="menuNavLinks"><Link to='/portfolio'>Portfolio</Link></li>
-                <li className="menuNavLinks"><Link to='/hse'>HSE</Link></li>
+              <nav id="menuNav" className="flex gap-7 h-fit list-none text-white z-[999]">
+                {[
+                  { name: "About Us", link: "/about" },
+                  { name: "Service", link: "/services" },
+                  { name: "Our Fleet", link: "/fleet" },
+                  { name: "Portfolio", link: "/portfolio" },
+                  { name: "HSE", link: "/hse" },
+                ].map((item) => (
+                  <li key={item.link} className="relative group">
+                    <Link
+                      to={item.link}
+                      className="relative text-white transition-all duration-300 ease-in-out"
+                    >
+                      {item.name}
+                      {/* Animated underline */}
+                      <span
+                        className="absolute left-1/2 -bottom-[3px]  w-0  h-[2px]  bg-[#FDC000]  transition-all duration-300 ease-in-out  group-hover:left-0   group-hover:w-full "
+                      ></span>
+                    </Link>
+                  </li>
+                ))}
               </nav>
+
+
               <button className="menuButton w-[9vw] h-[6vh] bg-[#FDC000] text-black text-[1rem] rounded-[9px]">
                 <Link to='/contact'>Contact Us</Link>
 
               </button>
+
             </>
         }
       </div>
