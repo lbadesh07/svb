@@ -40,7 +40,7 @@ const AboutPage = () => {
                     <p className='text-black popins text-[1rem] lg:text-[1.4rem] font-semibold underline decoration-[#FDC000] underline-offset-8'>About our company</p>
                     <div className='flex gap-4 lg:gap-7'>
                         <img src={bgIMG} className="w-[45vw] h-[20vh] lg:w-[32vw] lg:h-[59vh]" />
-                        <div className='flex flex-col  lg:h-[59vh] gap-5 lg:gap-7 relative'>
+                        <div className='flex flex-col  lg:h-[59vh] gap-3 lg:gap-7 relative'>
                             <p className='popins-bold text-[1.3rem] leading-7 lg:text-[3rem] lg:leading-14'>Excellence, <br /> <span className='text-[#FDC000]'>Expertise,</span>  Efficiency</p>
                             {isMobile ? <p className=" text-[#4D4D4D]  w-[49vw]  text-[10px]    ">
                                 <span className="font-semibold mr-1">SVB Infra Projects</span>
@@ -66,12 +66,12 @@ const AboutPage = () => {
                                     <p className='text-[1.5rem] lg:text-[2rem] popins-bold'>10+</p>
                                     <p className='popins text-[#4D4D4D] text-[10px] lg:text-[0.9rem]'>Clients</p>
                                 </div>
-                                <div className='h-[3vh] lg:h-[6vh] bg-black w-[1px] lg:w-0.5'></div>
+                                <div className='h-[4vh] lg:h-[6vh] bg-black w-[1px] lg:w-0.5'></div>
                                 <div className='flex flex-col place-items-center '>
                                     <p className='text-[1.5rem] lg:text-[2rem] popins-bold'>20+</p>
                                     <p className='popins text-[#4D4D4D] text-[10px] lg:text-[0.9rem]'>Successful project</p>
                                 </div>
-                                <div className=' h-[3vh] lg:h-[6vh] bg-black w-[1px] lg:w-0.5'></div>
+                                <div className=' h-[4vh] lg:h-[6vh] bg-black w-[1px] lg:w-0.5'></div>
                                 <div className='flex flex-col place-items-center '>
                                     <p className=' text-[1.5rem] lg:text-[2rem] popins-bold'>50+</p>
                                     <p className='popins text-[#4D4D4D] text-[10px] lg:text-[0.9rem]'>Machines & Equipments</p>
@@ -81,7 +81,7 @@ const AboutPage = () => {
                     </div>
                 </div>
                 <div className='flex flex-col gap-10 w-fit my-40  '>
-                    <p className='text-black popins text-[1rem] lg:text-[1.4rem] font-semibold underline decoration-[#FDC000] underline-offset-8 lg:pl-[162px] my-10'>Why Choose Us</p>
+                    <p className='text-black popins text-[1rem] lg:text-[1.4rem] font-semibold underline decoration-[#FDC000] underline-offset-8 pl-[30px] lg:pl-[162px] my-10'>Why Choose Us</p>
                     <div className='flex relative  mx-2 lg:mx-45'>
                         <div className=' flex flex-col gap-15 lg:gap-30'>
 
@@ -95,14 +95,14 @@ const AboutPage = () => {
                             </div>
                             <div className='flex flex-col gap-3 lg:gap-7'>
                                 <div className='flex gap-2 lg:gap-14'>
-                                    <div className='border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
+                                    <div className='border lg:border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
                                         <img src={icon1} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
                                         <div className='flex flex-col gap-1 lg:gap-2'>
                                             <p className='popins font-semibold text-[0.6rem] lg:text-[1.7rem]'>Modern Equipment</p>
                                             <p className='text-[#4D4D4D] text-[7px] lg:text-[1rem]'>Advanced equipment for every <br /> project need</p>
                                         </div>
                                     </div>
-                                    <div className='border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
+                                    <div className='border lg:border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
                                         <img src={icon1} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
                                         <div className='flex flex-col gap-1 lg:gap-2'>
                                             <p className='popins font-semibold text-[0.6rem] lg:text-[1.7rem]'>Modern Equipment</p>
@@ -111,21 +111,21 @@ const AboutPage = () => {
                                     </div>
                                 </div>
                                 <div className='flex gap-2 lg:gap-14'>
-                                    <div className='border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
+                                    <div className='border lg:border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
                                         <img src={icon1} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
                                         <div className='flex flex-col gap-1 lg:gap-2'>
                                             <p className='popins font-semibold text-[0.6rem] lg:text-[1.7rem]'>Modern Equipment</p>
                                             <p className='text-[#4D4D4D] text-[7px] lg:text-[1rem]'>Advanced equipment for every <br /> project need</p>
                                         </div>
                                     </div>
-                                    <div className='border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
+                                    <div className='border lg:border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
                                         <img src={icon1} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
                                         <div className='flex flex-col gap-1 lg:gap-2'>
                                             <p className='popins font-semibold text-[0.6rem] lg:text-[1.7rem]'>Modern Equipment</p>
                                             <p className='text-[#4D4D4D] text-[7px] lg:text-[1rem]'>Advanced equipment for every <br /> project need</p>
                                         </div>
                                     </div>
-                                    <div className='border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
+                                    <div className='border lg:border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
                                         <img src={icon1} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
                                         <div className='flex flex-col gap-1 lg:gap-2'>
                                             <p className='popins font-semibold text-[0.6rem] lg:text-[1.7rem]'>Modern Equipment</p>
