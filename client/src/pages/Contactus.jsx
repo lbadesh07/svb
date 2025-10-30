@@ -10,6 +10,7 @@ import yt from '../assets/contact-yt-icon.png'
 import ins from '../assets/contact-ins-icon.png'
 
 const Contactus = () => {
+    // contactPage
     return (
         <>
             <div className='w-screen'>
