@@ -85,7 +85,7 @@ const Landing = () => {
                   some of the biggest names in construction and civil engineering
                   sector.
                 </p>
-                <button className="popins w-[18vw] text-[10px] lg:text-[20px]  lg:w-[9vw] bg-[#FDC000]  py-2 rounded-md ">
+                <button className="popins w-[18vw] mr-2 text-[10px] lg:text-[20px]  lg:w-[9vw] bg-[#FDC000]  py-2 rounded-md ">
                   Know More
                 </button>
               </div>
@@ -107,11 +107,11 @@ const Landing = () => {
           </div>
         </div>
         <div className=" flex flex-col gap-10  ">
-          <p className="popins text-[1.2rem] lg:text-[30px] lg:pl-[190px] pl-[] font-semibold underline decoration-[#FDC000] underline-offset-8">Pillars of Trust</p>
-          <img src={pillarImg} className="lg:w-[75vw] lg:h-[101vh] mx-2 lg:mx-auto " />
+          <p className="popins text-[1.2rem] lg:text-[30px] lg:pl-[190px] pl-[30px] font-semibold underline decoration-[#FDC000] underline-offset-8">Pillars of Trust</p>
+          <img src={pillarImg} className="lg:w-[75vw] lg:h-[101vh] mx-4 lg:mx-auto " />
         </div>
         <div className=" w-full flex flex-col gap-15 lg:gap-10">
-          <p className="popins pl-[10px] lg:pl-[198px] lg:text-[30px] text-[1.2rem]  font-semibold underline decoration-[#FDC000] underline-offset-8">Our Fleet</p>
+          <p className="popins pl-[30px] lg:pl-[198px] lg:text-[30px] text-[1.2rem]  font-semibold underline decoration-[#FDC000] underline-offset-8">Our Fleet</p>
           <div className=" flex flex-col lg:flex-row  lg:mx-40 gap-7 lg:gap-5 lg:my-5">
             <div className="flex flex-col w-screen place-items-center lg:place-items-start  lg:w-[40vw] gap-4 lg:py-10 lg:gap-5  ">
               <p className="popins-bold leading-9 lg:leading-18  bg-white text-black text-[2rem] lg:text-[4rem] font-bold text-center lg:text-start">Force Behind <br /> Every <span className="text-[#FDC000]">Foundation</span></p>
