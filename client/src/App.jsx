@@ -17,10 +17,10 @@ const App = () => {
       <Menu></Menu>
       {/* <Landing></Landing> */}
       {/* <AboutPage></AboutPage> */}
-      {/* <Service></Service> */}
+      <Service></Service>
       <Fleet></Fleet>
-      {/* <PortFolio></PortFolio> */}
-      {/* <Contactus></Contactus> */}
+      <PortFolio></PortFolio>
+      <Contactus></Contactus>
       {/* <HSE></HSE> */}
       {/* <Routes>
         <Route path="/" element={<Landing></Landing>}/>
