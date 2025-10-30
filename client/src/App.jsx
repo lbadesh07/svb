@@ -18,11 +18,11 @@ const App = () => {
       {/* <Landing></Landing> */}
       {/* <AboutPage></AboutPage> */}
       {/* <Service></Service> */}
-      {/* <Fleet></Fleet> */}
+      <Fleet></Fleet>
       {/* <PortFolio></PortFolio> */}
       {/* <Contactus></Contactus> */}
       {/* <HSE></HSE> */}
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Landing></Landing>}/>
         <Route path="/about" element={<AboutPage></AboutPage>}/>
         <Route path="/services" element={<Service></Service>}/>
@@ -31,7 +31,7 @@ const App = () => {
         <Route path="/contact" element={<Contactus></Contactus>}/>
         <Route path="/hse" element={<HSE></HSE>}/>
         
-      </Routes>
+      </Routes> */}
       {/* <Subpage1></Subpage1> */}
       <Footer></Footer>
     </>

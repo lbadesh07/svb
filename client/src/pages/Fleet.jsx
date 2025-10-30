@@ -9,7 +9,26 @@ import f5 from "../assets/fleetCardIMG5.png";
 import f6 from "../assets/fleetCardIMG6.png";
 import f7 from "../assets/fleetCardIMG7.png";
 import f8 from "../assets/fleetCardIMG8.png";
+import { useState,useEffect } from 'react';
 const Fleet = () => {
+     const[isMobile, setIsMobile] = useState(false);
+    
+        const handleResize = () => {
+            const width = window.innerWidth;
+    
+            if (width < 740) {
+                setIsMobile(true);
+            } else {
+                setIsMobile(false);
+            }
+        };
+    
+        useEffect(() => {
+            handleResize(); // Run once when mounted
+            window.addEventListener("resize", handleResize);
+    
+            return () => window.removeEventListener("resize", handleResize);
+        }, []);
 
     let cardDetails = [
         { img: f1, title: "30 Ton Excavator With Breaker", desc: "Powerful breaker for breaking rocks and concrete efficiently." },
@@ -25,52 +44,52 @@ const Fleet = () => {
     return (
         <>
             <div>
-                <div id='fleetBanner' className='w-screen h-[95vh]   '>
-                    <div className='flex flex-col gap-7 w-fit mx-auto pt-[157px]'>
-
-
+                <div id='fleetBanner' className='w-screen h-[45vh] lg:h-[95vh] '>
+                    <div className='flex flex-col gap-7 w-fit lg:mx-auto mx-auto pt-[60px] lg:pt-[157px]'>
                         <div className='flex flex-col gap-4'>
-                            <p className='text-[4rem] fontMon font-bold text-white leading-20'>Powering <span className='text-[#FDC000]'>Progress</span>  with <br /> Modern Machinery</p>
-                            <p className='text-white text-[1rem] popins-noweight'>Equipped with advanced machinery, we deliver efficient, precise, and dependable <br /> results across all project scales.</p>
+                            <p className='text-[1.5rem] lg:text-[4rem] fontMon font-bold text-white leading-8 lg:leading-20'>Powering <span className='text-[#FDC000]'>Progress</span>  with <br /> Modern Machinery</p>
+                            {isMobile?<p className='text-white text-[10px] lg:text-[1rem] popins-noweight'>Equipped with advanced machinery, we deliver <br /> efficient,  precise, and dependable  results <br /> across all project scales.</p>:
+                            <p className='text-white text-[10px] lg:text-[1rem] popins-noweight'>Equipped with advanced machinery, we deliver efficient, precise, and dependable <br /> results across all project scales.</p>}
                         </div>
-                        <div className='w-[52vw] h-[17vh]  bg-white rounded-2xl flex justify-evenly place-items-center'>
-                            <div className='flex flex-col gap-[20px] text-center'>
-                                <p className='popins-noweight text-[1.3rem] font-semibold text-[#333333]'>Total Machines</p>
-                                <p className='popins-noweight text-[1rem] font-normal text-[#333333]'>40+ Machines</p>
+                        <div className='w-[82vw] h-[6vh] lg:w-[52vw] lg:h-[17vh]  bg-white rounded-xl lg:rounded-2xl flex justify-evenly place-items-center'>
+                            <div className='flex flex-col gap-[3px] lg:gap-[20px] text-center'>
+                                <p className='popins-noweight text-[0.6rem] lg:text-[1.3rem] font-semibold text-[#333333]'>Total Machines</p>
+                                <p className='popins-noweight text-[0.4rem] lg:text-[1rem] font-normal text-[#333333]'>40+ Machines</p>
                             </div>
-                            <div className='w-[1px] h-[70px] bg-[#333333]'></div>
-                            <div className='flex flex-col gap-[20px] text-center'>
-                                <p className='popins-noweight text-[1.3rem] font-semibold text-[#333333]'>Availability</p>
-                                <p className='popins-noweight text-[1rem] font-normal text-[#333333]'>Immediate</p>
+                            <div className='w-[1px] h-[40px] lg:h-[70px] bg-[#333333]'></div>
+                            <div className='flex flex-col gap-[3px] lg:gap-[20px] text-center'>
+                                <p className='popins-noweight text-[0.6rem] lg:text-[1.3rem] font-semibold text-[#333333]'>Availability</p>
+                                <p className='popins-noweight text-[0.4rem] lg:text-[1rem] font-normal text-[#333333]'>Immediate</p>
                             </div>
-                            <div className='w-[1px] h-[70px] bg-[#333333]'></div>
-                            <div className='flex flex-col gap-[20px] text-center'>
-                                <p className='popins-noweight text-[1.3rem] font-semibold text-[#333333]'>Fleet Diversity</p>
-                                <p className='popins-noweight text-[1rem] font-normal text-[#333333]'>Heavy Machinery</p>
+                            <div className='w-[1px] h-[40px] lg:h-[70px] bg-[#333333]'></div>
+                            <div className='flex flex-col gap-[3px] lg:gap-[20px] text-center'>
+                                <p className='popins-noweight text-[0.6rem] lg:text-[1.3rem] font-semibold text-[#333333]'>Fleet Diversity</p>
+                                <p className='popins-noweight text-[0.4rem] lg:text-[1rem] font-normal text-[#333333]'>Heavy Machinery</p>
                             </div>
-                            <div className='w-[1px] h-[70px] bg-[#333333]'></div>
-                            <div className='flex flex-col gap-[20px] text-center'>
-                                <p className='popins-noweight text-[1.3rem] font-semibold text-[#333333]'>Successfull Projects</p>
-                                <p className='popins-noweight text-[1rem] font-normal text-[#333333]'>50+ Projects</p>
+                            <div className='w-[1px] h-[40px] lg:h-[70px] bg-[#333333]'></div>
+                            <div className='flex flex-col gap-[3px] lg:gap-[20px] text-center'>
+                                <p className='popins-noweight text-[0.6rem] lg:text-[1.3rem] font-semibold text-[#333333]'>Successfull Projects</p>
+                                <p className='popins-noweight text-[0.4rem] lg:text-[1rem] font-normal text-[#333333]'>50+ Projects</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <section>
-                    <div className='flex flex-col gap-2 w-fit mx-40 my-30'>
-                        <p className='text-[#333333] text-[1.6rem]  font-semibold underline decoration-[#FDC000] underline-offset-8 mb-6'>Our Powerfull Machines</p>
+                    <div className='flex flex-col gap-2 w-fit mx-10 lg:mx-40 my-30 lg:my-30'>
+                        <p className='text-[#333333] text-[1rem] lg:text-[1.6rem]  font-semibold underline decoration-[#FDC000] underline-offset-8 mb-6'>Our Powerfull Machines</p>
                         <div>
-                            <p className='popins-bold text-[4rem] leading-[69px]'>Power, Precision, and <br /> Performance - <span className='text-[#FCD000]'>All in One Fleet.</span> </p>
-                            <p className='text-[#333333] text-[1rem]'>A fleet engineered for strength, accuracy, and unmatched efficiency.</p>
+                            <p className='popins-bold text-[1.4rem] lg:text-[4rem] lg:leading-[69px]'>Power, Precision, and <br /> Performance - <span className='text-[#FCD000]'>All in One Fleet.</span> </p>
+                            {isMobile?<p className='text-[#333333] text-[0.8rem]'>A fleet engineered for strength, accuracy, and <br /> unmatched efficiency.</p>:
+                            <p className='text-[#333333] text-[1rem]'>A fleet engineered for strength, accuracy, and unmatched efficiency.</p>}
                         </div>
                     </div>
                     <div className=' flex gap-x-15 gap-y-10 w-[80vw] flex-wrap  mx-auto mb-20'>
                         {
                             cardDetails.map((item) => (
-                                <div className='w-[24vw] h-[53vh]  flex flex-col gap-2 px-4 py-4 rounded-lg shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
-                                    <img src={item.img} className="w-[22vw] h-[30vh]" />
-                                    <p className=' text-[#333333] text-[1.7rem] font-semibold leading-8'>{item.title}</p>
-                                    <p className='mt-5'>{item.desc}</p>
+                                <div className=' w-[80vw] h-[50vh] lg:w-[24vw] lg:h-[53vh]  flex flex-col gap-2 px-4 py-4 rounded-lg shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
+                                    <img src={item.img} className="lg:w-[22vw] lg:h-[30vh] h-[30vh] w-[80vw]" />
+                                    <p className=' text-[#333333] text-[1.5rem] lg:text-[1.7rem] font-semibold leading-8'>{item.title}</p>
+                                    <p className='lg:mt-5 text-[1rem]'>{item.desc}</p>
                                 </div>
                             ))
                         }

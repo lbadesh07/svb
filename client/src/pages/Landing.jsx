@@ -31,7 +31,7 @@ const Landing = ({
       <div className="flex flex-col gap-[20vh] my-30  w-screen">
         <div>
           <section className="flex  flex-row w-full justify-center  text-gray-800  ">
-            {/* Left Image Section */}
+          
             <div className="">
               <img
                 src={constructionImg}
@@ -40,11 +40,11 @@ const Landing = ({
               />
             </div>
 
-            {/* Right Text Section */}
+           
             <div className="w-[33vw] h-fit  flex flex-col">
               <p className="popins leading-16   p-4 rounded-bl-2xl -ml-56 bg-[#F8F8F8] text-black text-[4rem] font-semibold">
                 Great Relationships,
-                <br /> Great{" "}
+                <br /> Great
                 <span className="text-[#FDC000]">Infrastructure</span>
               </p>
               <div className="flex flex-col place-items-end">
@@ -102,7 +102,7 @@ const Landing = ({
                 <img src={fleet2} className="w-[18vw] h-[43vh]" />
                 <img src={fleet1} className="w-[18vw] h-[43vh]" />
 
-                {/* duplicate for seamless infinite loop */}
+        
                 <img src={fleet1} className="w-[18vw] h-[43vh]" />
                 <img src={fleet2} className="w-[18vw] h-[43vh]" />
                 <img src={fleet1} className="w-[18vw] h-[43vh]" />
@@ -126,9 +126,9 @@ const Landing = ({
           <div className=" flex w-full py-6 relative ">
             <p className="text-[#4D4D4D] popins text-[16px] mt-5 font-semibold text-lg">We have successfully completed a wide range of <br /> earthwork and excavation projects for leading <br /> clients across Karnataka. Our portfolio includes <br /> residential, commercial, and infrastructure <br /> developments delivered with quality and precision.</p>
             <div className="absolute left-[35vw] -top-[7vw] w-[50vw] py-4  overflow-hidden ">
-              {/* ✅ Scroll track (inside box) */}
+         
               <div className="flex gap-x-6 animate-scroll">
-                {/* Duplicate cards for seamless looping */}
+              
                <img src={c1} alt="" className="w-[18vw] h-[47vh]" />
                <img src={c2} alt="" className="w-[18vw] h-[47vh]" />
                <img src={c3} alt="" className="w-[18vw] h-[47vh]" />
