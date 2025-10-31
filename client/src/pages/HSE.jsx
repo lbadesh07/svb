@@ -23,12 +23,19 @@ const HSE = () => {
                     </div>
                 </div>
                
-                <div className='flex  mx-auto w-fit gap-[3px] lg:gap-[24px] -mt-20 '>
-                    <img src={c1} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
-                    <img src={c2} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
-                    <img src={c3} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
-                    {/* <img src={c4} className="w-[24vw] h-[15vh] lg:w-[18vw] lg:h-[47vh]" /> */}
-                </div>
+                <div className="relative w-full overflow-hidden -mt-20">
+  <div className="flex animate-scroll gap-[3px] lg:gap-[24px] mx-auto w-fit">
+    <img src={c1} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
+    <img src={c2} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
+    <img src={c3} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
+    <img src={c4} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
+    <img src={c1} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
+    <img src={c2} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
+    <img src={c3} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
+    <img src={c4} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
+  </div>
+</div>
+
                 <div className='flex flex-col gap-7 lg:gap-10 mt-[70px] lg:mt-[120px] mt-[40px] mx-[20px] lg:mx-[200px]'>
                     <p className='text-[14px] lg:text-[2rem] underline decoration-[#FDC000] underline-offset-8 fontMon font-semibold text-[#333333]'>Our Commitment to HSE</p>
                     <div className='flex flex-col gap-2 lg:gap-4'>
