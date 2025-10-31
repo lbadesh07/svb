@@ -102,7 +102,7 @@ const PortFolio = () => {
 
                 <section className=' flex flex-col gap-20'>
                     <p className='text-[#333333] text-[1.2rem] lg:text-[2rem] pl-[2rem] lg:pl-40 underline decoration-[#FDC000] underline-offset-8'>Gallery</p>
-                    <div className='flex  w-fit mx-auto  lg:gap-80'>
+                    <div className='flex  w-fit mx-4 lg:mx-auto   lg:gap-80'>
                         <div className='flex  flex-col w-[65%] lg:w-fit gap-3'>
                             <p className=' text-[1.3rem] lg:text-[4.2rem] text-[#333333] popins-bold leading-7 lg:leading-20'>Our <span className='text-[#FDC000]'>Work,</span> <br />  Captured in Action</p>
                             <p className='text-[0.8rem] lg:text-[1rem] text-[#333333] font-semibold'>Explore our gallery to see SVB Infra Projects’ commitment to quality,<br className='hidden lg:block' /> precision, and trusted execution in every project we deliver.</p>
@@ -112,7 +112,7 @@ const PortFolio = () => {
                             <p className='text-[0.8rem] lg:text-[2rem] text-[#333333] popins-bold lg:leading-10'>Total number <br /> of machinery</p>
                         </div>
                     </div>
-                    <div className="columns-2 md:columns-3 gap-4 [column-fill:_balance] lg:mx-30">
+                    <div className="columns-2 md:columns-3 gap-4 [column-fill:_balance] mx-5 lg:mx-30">
                         {galleryImages.map((img, i) => (
                             <img
                                 key={i}
