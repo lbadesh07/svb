@@ -23,16 +23,16 @@ const HSE = () => {
                     </div>
                 </div>
 
-                <div className="relative w-full overflow-hidden -mt-20">
+                <div className="relative w-full  overflow-hidden -mt-20">
                     <div className="flex animate-scroll gap-[2px] lg:gap-[24px] min-w-full">
-                        <img src={c1} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c2} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c3} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c4} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c1} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c2} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c3} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c4} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c1} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
+                        <img src={c2} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
+                        <img src={c3} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
+                        <img src={c4} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
+                        <img src={c1} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
+                        <img src={c2} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
+                        <img src={c3} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
+                        <img src={c4} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
                     </div>
                 </div>
 
