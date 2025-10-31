@@ -48,10 +48,10 @@ const Contactus = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className=' px-2  w-[90vw] lg:w-[30vw]  lg:px-0 pl-[12px] lg:pl-[20px]'>
+                            <div className='   w-[90vw] lg:w-[30vw]  lg:px-0 pl-[12px]  lg:pl-[20px]'>
                                 {/* <p className='contactUSBannerInfoTitle text-[#333333] font-semibold text-[2rem] mb-[50px]'>Send us a message</p> */}
                                 <form action="" className='  w-full lg:w-[30vw]  flex flex-col'>
-                                    <div className='flex flex-wrap w-full gap-2 lg:gap-5'>
+                                    <div className='flex flex-wrap   w-full gap-2 lg:gap-5'>
                                         <input type="text" placeholder='Name' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
                                         <input type="email" placeholder='Email' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
                                         <input type="tel" placeholder='Phone' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
