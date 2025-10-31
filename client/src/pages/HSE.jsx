@@ -24,17 +24,18 @@ const HSE = () => {
                 </div>
 
                 <div className="relative w-full overflow-hidden -mt-20">
-                    <div className="flex animate-scroll gap-[2px] lg:gap-[24px] mx-auto w-fit">
-                        <img src={c1} className="w-[145vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c2} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c3} className="w-[451vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c4} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c1} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c2} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c3} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c4} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
+                    <div className="flex animate-scroll gap-[2px] lg:gap-[24px] mx-auto min-w-max">
+                        <img src={c1} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c2} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c3} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c4} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c1} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c2} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c3} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c4} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
                     </div>
                 </div>
+
 
                 <div className='flex flex-col gap-7 lg:gap-10 mt-[70px] lg:mt-[120px] mt-[40px] mx-[20px] lg:mx-[200px]'>
                     <p className='text-[14px] lg:text-[2rem] underline decoration-[#FDC000] underline-offset-8 fontMon font-semibold text-[#333333]'>Our Commitment to HSE</p>
