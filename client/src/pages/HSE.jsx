@@ -16,20 +16,20 @@ const HSE = () => {
     return (
         <>
             <div className='bg-[F8F8F8]'>
-                <div className='h-[95vh] w-screen  ' id='hseBanner' >
-                    <div className='pl-[135px] flex flex-col gap-[12px] pt-[195px]'>
-                        <p className='hseBannerTitle text-[4rem] text-[#FDC000] leading-20'>Health, Safety & Environmental <br /> <span className='text-white'>Practices</span> </p>
-                        <p className='hseBannerDesc text-white text-[20px]'>Delivering infrastructure that’s safe, responsible, and built for the <br /> future.</p>
+                <div className='h-[45vh] lg:h-[95vh] w-screen  ' id='hseBanner' >
+                    <div className='lg:pl-[135px] pl-[20px] flex flex-col gap-[20px] lg:gap-[12px] pt-[80px] lg:pt-[195px]'>
+                        <p className='hseBannerTitle text-[1.4rem] leading-6 lg:text-[4rem] text-[#FDC000] lg:leading-20'>Health, Safety & Environmental <br /> <span className='text-white'>Practices</span> </p>
+                        <p className='hseBannerDesc text-white text-[14px] lg:text-[20px]'>Delivering infrastructure that’s safe,<br className='lg:hidden'/> responsible,  and built for the <br className='hidden lg:block' /> future.</p>
                     </div>
                 </div>
                
-                <div className='flex  mx-auto w-fit gap-[24px] -mt-20 '>
-                    <img src={c1} className="w-[18vw] h-[47vh]" />
-                    <img src={c2} className="w-[18vw] h-[47vh]" />
-                    <img src={c3} className="w-[18vw] h-[47vh]" />
-                    <img src={c4} className="w-[18vw] h-[47vh]" />
+                <div className='flex  mx-auto w-fit gap-[2px] lg:gap-[24px] -mt-20 '>
+                    <img src={c1} className="w-[24vw] h-[14vh] lg:w-[18vw] lg:h-[47vh]" />
+                    <img src={c2} className="w-[24vw] h-[14vh] lg:w-[18vw] lg:h-[47vh]" />
+                    <img src={c3} className="w-[24vw] h-[14vh] lg:w-[18vw] lg:h-[47vh]" />
+                    <img src={c4} className="w-[24vw] h-[14vh] lg:w-[18vw] lg:h-[47vh]" />
                 </div>
-                <div className='flex flex-col gap-10 mt-[120px] mx-[200px]'>
+                {/* <div className='flex flex-col gap-10 mt-[120px] mx-[200px]'>
                     <p className='text-[2rem] underline decoration-[#FDC000] underline-offset-8 fontMon font-semibold text-[#333333]'>Our Commitment to HSE</p>
                     <div className='flex flex-col gap-4'>
                         <p className='text-[4rem] text-[#333333] fontMon font-bold'>Your Safety, <span className='text-[#FDC000]'>Our</span>  Priority.</p>
@@ -101,7 +101,7 @@ const HSE = () => {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )
