@@ -19,22 +19,22 @@ const HSE = () => {
                 <div className='h-[45vh] lg:h-[95vh] w-screen  ' id='hseBanner' >
                     <div className='lg:pl-[135px] pl-[20px] flex flex-col gap-[20px] lg:gap-[12px] pt-[80px] lg:pt-[195px]'>
                         <p className='hseBannerTitle text-[1.4rem] leading-6 lg:text-[4rem] text-[#FDC000] lg:leading-20'>Health, Safety & Environmental <br /> <span className='text-white'>Practices</span> </p>
-                        <p className='hseBannerDesc text-white text-[14px] lg:text-[20px]'>Delivering infrastructure that’s safe,<br className='lg:hidden'/> responsible,  and built for the <br className='hidden lg:block' /> future.</p>
+                        <p className='hseBannerDesc text-white text-[14px] lg:text-[20px]'>Delivering infrastructure that’s safe,<br className='lg:hidden' /> responsible,  and built for the <br className='hidden lg:block' /> future.</p>
                     </div>
                 </div>
-               
+
                 <div className="relative w-full overflow-hidden -mt-20">
-  <div className="flex animate-scroll gap-[3px] lg:gap-[24px] mx-auto w-fit">
-    <img src={c1} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
-    <img src={c2} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
-    <img src={c3} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
-    <img src={c4} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
-    <img src={c1} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
-    <img src={c2} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
-    <img src={c3} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
-    <img src={c4} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
-  </div>
-</div>
+                    <div className="flex animate-scroll gap-[3px] lg:gap-[24px] mx-auto w-fit">
+                        <img src={c1} className="w-[33vw] h-[23vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c2} className="w-[33vw] h-[23vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c3} className="w-[33vw] h-[23vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c4} className="w-[33vw] h-[23vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c1} className="w-[33vw] h-[23vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c2} className="w-[33vw] h-[23vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c3} className="w-[33vw] h-[23vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c4} className="w-[33vw] h-[23vh] lg:w-[18vw] lg:h-[47vh]" />
+                    </div>
+                </div>
 
                 <div className='flex flex-col gap-7 lg:gap-10 mt-[70px] lg:mt-[120px] mt-[40px] mx-[20px] lg:mx-[200px]'>
                     <p className='text-[14px] lg:text-[2rem] underline decoration-[#FDC000] underline-offset-8 fontMon font-semibold text-[#333333]'>Our Commitment to HSE</p>
