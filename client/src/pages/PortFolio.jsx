@@ -60,7 +60,7 @@ const PortFolio = () => {
     }, []);
     return (
         <>
-            <div className='flex flex-col gap-[13vh] my-20 bg-[#F8F8F8]'>
+            <div className='flex flex-col gap-[13vh] py-20 bg-[#F8F8F8]'>
                 <section className='flex flex-col gap-8 lg:gap-8 '>
                     <p className='lg:text-[2rem] text-[1.2rem] pl-[0.8rem] lg:pl-[130px] text-[#333333] font-semibold underline decoration-[#FDC000] underline-offset-8'>Portfolio</p>
                     <div className='flex flex-col lg:flex-row  lg:w-fit lg:gap-30 mx-4 lg:mx-auto'>
