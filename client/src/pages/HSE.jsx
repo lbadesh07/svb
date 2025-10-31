@@ -32,6 +32,7 @@ const HSE = () => {
                     <img src={c2} className="w-[36vw] h-[22vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
                     <img src={c3} className="w-[36vw] h-[22vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
                     <img src={c4} className="w-[36vw] h-[22vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                    {/* let */}
                 </div>
 
 
