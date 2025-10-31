@@ -48,7 +48,7 @@ const Contactus = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className=' px-2  w-[90vw] lg:w-[30vw]  lg:px-0 lg:pl-[20px]'>
+                            <div className=' px-2  w-[90vw] lg:w-[30vw]  lg:px-0 pl-[5px] lg:pl-[20px]'>
                                 {/* <p className='contactUSBannerInfoTitle text-[#333333] font-semibold text-[2rem] mb-[50px]'>Send us a message</p> */}
                                 <form action="" className='  w-full lg:w-[30vw]  flex flex-col'>
                                     <div className='flex flex-wrap w-full gap-2 lg:gap-5'>
