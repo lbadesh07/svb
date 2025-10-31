@@ -24,15 +24,15 @@ const HSE = () => {
                 </div>
 
                 <div className="relative w-full overflow-hidden -mt-20">
-                    <div className="flex animate-scroll gap-[2px] lg:gap-[24px] mx-auto min-w-max">
-                        <img src={c1} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c2} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c3} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c4} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c1} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c2} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c3} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
-                        <img src={c4} className="w-[36vw] h-[24vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                    <div className="flex animate-scroll gap-[2px] lg:gap-[24px] min-w-full">
+                        <img src={c1} className="w-[36vw] h-[26vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c2} className="w-[36vw] h-[26vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c3} className="w-[36vw] h-[26vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c4} className="w-[36vw] h-[26vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c1} className="w-[36vw] h-[26vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c2} className="w-[36vw] h-[26vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c3} className="w-[36vw] h-[26vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
+                        <img src={c4} className="w-[36vw] h-[26vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0" />
                     </div>
                 </div>
 
