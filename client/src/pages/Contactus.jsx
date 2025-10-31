@@ -42,7 +42,7 @@ const Contactus = () => {
                                         <p className='popins text-[#333333] text-[1rem]'>Follow for More</p>
                                         <div className='flex gap-[12px]  place-items-center'>
                                             <img src={lin} className=' w-[5vw]  h-[2.6vh] lg:w-[1vw] lg:h-[2vh]' alt="" />
-                                            <img src={yt} className='w-[5vw]  h-[2vh] lg:w-[1vw] lg:h-[2vh]' alt="" />
+                                            <img src={yt} className='w-[5vw]  h-[2vh] lg:w-[1.1vw] lg:h-[2vh]' alt="" />
                                             <img src={ins} className='w-[5vw]  h-[2.6vh] lg:w-[1vw] lg:h-[2vh]' alt="" />
                                         </div>
                                     </div>
