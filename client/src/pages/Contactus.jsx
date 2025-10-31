@@ -52,10 +52,10 @@ const Contactus = () => {
                                 {/* <p className='contactUSBannerInfoTitle text-[#333333] font-semibold text-[2rem] mb-[50px]'>Send us a message</p> */}
                                 <form action="" className='  w-full lg:w-[30vw]  flex flex-col'>
                                     <div className='flex flex-wrap w-full gap-4 lg:gap-5'>
-                                        <input type="text" placeholder='Name' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md' />
-                                        <input type="email" placeholder='Email' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md' />
-                                        <input type="tel" placeholder='Phone' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md' />
-                                        <input type="text" placeholder='Address' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md' />
+                                        <input type="text" placeholder='Name' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
+                                        <input type="email" placeholder='Email' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
+                                        <input type="tel" placeholder='Phone' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
+                                        <input type="text" placeholder='Address' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
                                     </div>
                                     <textarea className='lg:w-[27.2vw] w-[82vw] lg:h-[14vh] p-3 rounded-md mt-5 border' placeholder='Message' name="" id=""></textarea>
                                     <div className=' w-full    lg:w-[27.2vw] flex justify-end mt-[33px]'>
