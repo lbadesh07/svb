@@ -23,7 +23,7 @@ const HSE = () => {
                     </div>
                 </div>
                
-                <div className='flex  mx-auto w-fit gap-[4px] lg:gap-[24px] -mt-20 '>
+                <div className='flex  mx-auto w-fit gap-[3px] lg:gap-[24px] -mt-20 '>
                     <img src={c1} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
                     <img src={c2} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
                     <img src={c3} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
