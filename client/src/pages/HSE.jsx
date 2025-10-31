@@ -49,11 +49,11 @@ const HSE = () => {
                     </div>
                 </div>
                 <div className=' w-full flex flex-col place-items-center gap-[27px] my-14 lg:gap-[39px] lg:my-[81px]'>
-                    <div className='mx-2 md:mx-0 py-5 md:py-0 px-4 md:px-0 lg:w-[78vw] h-fit lg:h-[59vh] flex flex-col lg:flex-row gap-5 lg:gap-[39px] rounded-lg justify-center place-items-center shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
+                    <div className='mx-2 md:mx-0 py-5 md:py-0 px-4 md:px-0 lg:w-[78vw] h-fit lg:h-[59vh] flex flex-col lg:flex-row gap-7 lg:gap-[39px] rounded-lg justify-center place-items-center shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
                         <div>
                             <img src={ic1} className="w-[85vw] h-[30vh] lg:w-[34vw] lg:h-[51vh]" />
                         </div>
-                        <div className='flex flex-col gap-[12px] lg:gap-[20px]'>
+                        <div className='flex flex-col gap-[10px] lg:gap-[20px]'>
                             <p className='text-[#333333] text-[1.4rem] lg:text-[2rem] fontMon font-semibold '>Commitment to health & safety</p>
                             <ul id='HSEUL' className='text-[#333333] popins text-[14px] lg:text-[20px] pl-7 font-semibold flex flex-col gap-[12px] lg:gap-[20px] '>
                                 <li className='HSEUL'>Setting out of corner benchmarks</li>
@@ -65,11 +65,11 @@ const HSE = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className=' mx-2 md:mx-0 py-5 md:py-0 px-4 md:px-0 lg:w-[78vw] h-fit lg:h-[59vh] flex flex-col md:flex-row-reverse gap-[12px] lg:gap-[20px] rounded-lg justify-center place-items-center shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
+                    <div className=' mx-2 md:mx-0 py-5 md:py-0 px-4 md:px-0 lg:w-[78vw] h-fit lg:h-[59vh] flex flex-col md:flex-row-reverse gap-7 lg:gap-[39px] rounded-lg justify-center place-items-center shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
                         <div>
                             <img src={ic1} className="w-[85vw] h-[30vh] lg:w-[34vw] lg:h-[51vh]" />
                         </div>
-                        <div className='flex flex-col gap-[12px] lg:gap-[20px]'>
+                        <div className='flex flex-col gap-[10px] lg:gap-[20px]'>
                             <p className='text-[#333333] text-[1.4rem] lg:text-[2rem] fontMon font-semibold '>Commitment to health & safety</p>
                             <ul id='HSEUL' className='text-[#333333] popins text-[14px] lg:text-[20px] pl-7 font-semibold flex flex-col gap-[12px] lg:gap-[20px] '>
                                 <li className='HSEUL'>Setting out of corner benchmarks</li>
@@ -81,11 +81,11 @@ const HSE = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='mx-2 md:mx-0 py-5 md:py-0 px-4 md:px-0 lg:w-[78vw] h-fit lg:h-[59vh] flex flex-col lg:flex-row gap-5 lg:gap-[39px] rounded-lg justify-center place-items-center shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
+                    <div className='mx-2 md:mx-0 py-5 md:py-0 px-4 md:px-0 lg:w-[78vw] h-fit lg:h-[59vh] flex flex-col lg:flex-row gap-7 lg:gap-[39px] rounded-lg justify-center place-items-center shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
                         <div>
                             <img src={ic1} className="w-[85vw] h-[30vh] lg:w-[34vw] lg:h-[51vh]" />
                         </div>
-                        <div className='flex flex-col gap-[12px] lg:gap-[20px]'>
+                        <div className='flex flex-col gap-[10px] lg:gap-[20px]'>
                             <p className='text-[#333333] text-[1.4rem] lg:text-[2rem] fontMon font-semibold '>Commitment to health & safety</p>
                             <ul id='HSEUL' className='text-[#333333] popins text-[14px] lg:text-[20px] pl-7 font-semibold flex flex-col gap-[12px] lg:gap-[20px] '>
                                 <li className='HSEUL'>Setting out of corner benchmarks</li>
@@ -97,11 +97,11 @@ const HSE = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className=' mx-2 md:mx-0 py-5 md:py-0 px-4 md:px-0 lg:w-[78vw] h-fit lg:h-[59vh] flex flex-col md:flex-row-reverse gap-[12px] lg:gap-[20px] rounded-lg justify-center place-items-center shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
+                    <div className=' mx-2 md:mx-0 py-5 md:py-0 px-4 md:px-0 lg:w-[78vw] h-fit lg:h-[59vh] flex flex-col md:flex-row-reverse gap-7 lg:gap-[39px] rounded-lg justify-center place-items-center shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
                         <div>
                             <img src={ic1} className="w-[85vw] h-[30vh] lg:w-[34vw] lg:h-[51vh]" />
                         </div>
-                        <div className='flex flex-col gap-[12px] lg:gap-[20px]'>
+                        <div className='flex flex-col gap-[10px] lg:gap-[20px]'>
                             <p className='text-[#333333] text-[1.4rem] lg:text-[2rem] fontMon font-semibold '>Commitment to health & safety</p>
                             <ul id='HSEUL' className='text-[#333333] popins text-[14px] lg:text-[20px] pl-7 font-semibold flex flex-col gap-[12px] lg:gap-[20px] '>
                                 <li className='HSEUL'>Setting out of corner benchmarks</li>
