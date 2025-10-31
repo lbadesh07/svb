@@ -41,10 +41,10 @@ const Service = () => {
                 <div className=' w-fit flex flex-col gap-6 lg:gap-5 mx-auto -mt-[100px] lg:-mt-[150px] pb-20'>
                     <p className='font-semibold text-white text-[1rem] lg:text-[1.4rem] underline decoration-[#FDC000] underline-offset-8 pl-3'>Our Services</p>
                     <div className='flex lg:gap-3'>
-                        <img src={s1} className="w-[24vw] h-[13vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={s2} className="w-[24vw] h-[13vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={s3} className="w-[24vw] h-[13vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={s4} className="w-[24vw] h-[13vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={s1} className="w-[24vw] h-[14vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={s2} className="w-[24vw] h-[14vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={s3} className="w-[24vw] h-[14vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={s4} className="w-[24vw] h-[14vh] lg:w-[18vw] lg:h-[47vh]" />
                     </div>
                 </div>
             </div>
