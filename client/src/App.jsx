@@ -33,7 +33,7 @@ const App = () => {
         
       </Routes>
       {/* <Subpage1></Subpage1> */}
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </>
   );
 };
