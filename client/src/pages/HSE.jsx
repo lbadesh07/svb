@@ -24,9 +24,9 @@ const HSE = () => {
                 </div>
                
                 <div className='flex  mx-auto w-fit gap-[4px] lg:gap-[24px] -mt-20 '>
-                    <img src={c1} className="w-[30vw] h-[20vh] lg:w-[18vw] lg:h-[47vh]" />
-                    <img src={c2} className="w-[30vw] h-[20vh] lg:w-[18vw] lg:h-[47vh]" />
-                    <img src={c3} className="w-[30vw] h-[20vh] lg:w-[18vw] lg:h-[47vh]" />
+                    <img src={c1} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
+                    <img src={c2} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
+                    <img src={c3} className="w-[32vw] h-[22vh] lg:w-[18vw] lg:h-[47vh]" />
                     {/* <img src={c4} className="w-[24vw] h-[15vh] lg:w-[18vw] lg:h-[47vh]" /> */}
                 </div>
                 <div className='flex flex-col gap-7 lg:gap-10 mt-[70px] lg:mt-[120px] mt-[40px] mx-[20px] lg:mx-[200px]'>
