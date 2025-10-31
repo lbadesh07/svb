@@ -24,15 +24,15 @@ const HSE = () => {
                 </div>
 
                 <div className="relative w-full overflow-hidden -mt-20">
-                    <div className="flex animate-scroll gap-[3px] lg:gap-[24px] mx-auto w-fit">
-                        <img src={c1} className="w-[45vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c2} className="w-[45vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c3} className="w-[45vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c4} className="w-[45vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c1} className="w-[45vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c2} className="w-[45vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c3} className="w-[45vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
-                        <img src={c4} className="w-[45vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
+                    <div className="flex animate-scroll gap-[2px] lg:gap-[24px] mx-auto w-fit">
+                        <img src={c1} className="w-[145vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c2} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c3} className="w-[451vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c4} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c1} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c2} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c3} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
+                        <img src={c4} className="w-[415vw] h-[24vh] lg:w-[18vw] lg:h-[47vh]" />
                     </div>
                 </div>
 
