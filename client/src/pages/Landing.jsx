@@ -45,10 +45,10 @@ const Landing = () => {
 
         <div className="flex flex-col  gap-[10px] lg:gap-[16px]">
           <p className="text-[1.7rem] lg:text-[4rem] text-white aboutCom font-bold leading-8 lg:leading-19">Building the Future with <br /> <span className="text-[#FDC000]">Strength & Precision</span> </p>
-          {isMobile?<p className="text-white text-[10px] lg:text-[20px] popins">Delivering reliable infrastructure solutions <br /> with modern machinery  and <br /> expert execution.</p>:
-          <p className="text-white text-[20px] popins">Delivering reliable infrastructure solutions with modern machinery <br /> and expert execution.</p>}
+          {isMobile?<p className="text-white w-[88%]  text-[1rem] lg:text-[20px] popins">Delivering reliable infrastructure solutions  with modern machinery  and  expert execution.</p>:
+          <p className="text-white text-[1.3rem] popins">Delivering reliable infrastructure solutions with modern machinery <br /> and expert execution.</p>}
         </div>
-        <button className="lg:w-[10vw] lg:h-[7vh] w-[22vw] rounded-md text-[12px] py-1 lg:py-0 h-[3vh] bg-[#FDC000] lg:rounded-md lg:text-[20px] popins-noweight font-semibold mt-[40px]">See Our Fleet</button>
+        <button className="lg:w-[10vw] lg:h-[7vh]  rounded-md text-[14px] px-3 lg:px-0 lg:py-0 py-2 lg:py-0  bg-[#FDC000] lg:rounded-md lg:text-[20px] popins-noweight font-semibold mt-[2.5rem]">See Our Fleet</button>
       </div>
         </div>
      
