@@ -92,7 +92,7 @@ const Landing = () => {
               </div>
             </div>
           </section>
-          <div className="flex gap-5 my-6  lg:my-10 pl-[4vw] lg:pl-[9vw]">
+          <div className="flex gap-5 my-6 mx-auto lg:mx-0  lg:my-10 pl-[4vw] lg:pl-[9vw]">
             <div className="border lg:border-2 border-[#FDC000] rounded-md flex lg:w-[12vw] w-[27vw] justify-evenly h-[5vh]   lg:h-[11vh] place-items-center">
               <p className="popins text-lg lg:text-3xl font-semibold ">50+</p>
               <p className="popins font-medium text-[9px] lg:text-[15px] text-[#4D4D4D]  text-start">Successfull <br /> Project</p>
@@ -108,16 +108,19 @@ const Landing = () => {
           </div>
         </div>
         <div className=" flex flex-col gap-10  ">
-          <p className="popins text-[1.2rem] lg:text-[30px] lg:pl-[190px] pl-[30px] font-semibold underline decoration-[#FDC000] underline-offset-8">Pillars of Trust</p>
+          <p className="fontMon text-[1.2rem] lg:text-[1.9rem] lg:pl-[120px] pl-[1.9rem] font-semibold underline decoration-[#FDC000] underline-offset-8">Pillars of Trust</p>
           <img src={pillarImg} className="lg:w-[75vw] lg:h-[101vh] mx-4 lg:mx-auto " />
         </div>
         <div className=" w-full flex flex-col gap-15 lg:gap-10">
-          <p className="popins pl-[30px] lg:pl-[198px] lg:text-[30px] text-[1.2rem]  font-semibold underline decoration-[#FDC000] underline-offset-8">Our Fleet</p>
-          <div className=" flex flex-col lg:flex-row  lg:mx-40 gap-7 lg:gap-5 lg:my-5">
+          <p className="fontMon pl-[1.9rem] lg:pl-[120px] lg:text-[1.9rem] text-[1.2rem]  font-semibold underline decoration-[#FDC000] underline-offset-8">Our Fleet</p>
+          <div className=" flex flex-col lg:flex-row  lg:mx-30 gap-7 lg:gap-5 lg:my-5">
             <div className="flex flex-col w-screen place-items-center lg:place-items-start  lg:w-[40vw] gap-4 lg:py-10 lg:gap-5  ">
-              <p className="popins-bold leading-9 lg:leading-18  bg-white text-black text-[2rem] lg:text-[4rem] font-bold text-center lg:text-start">Force Behind <br /> Every <span className="text-[#FDC000]">Foundation</span></p>
+              <p className="fontMon bold leading-9 lg:leading-18  bg-white text-[#333333] text-[1.5rem] lg:text-[4rem] font-bold text-center lg:text-start">Force Behind <br /> Every <span className="text-[#FDC000]">Foundation</span></p>
               <p className="text-[#4D4D4D] text-[1rem] font-medium text-center lg:text-start ">Starting out with only one JCB 3D, we now keep a well- <br /> maintained fleet of trucks and equipment.</p>
-              <button className="popins-bold w-[24vw] lg:w-[9vw] bg-[#FDC000]  py-2 rounded-md">Explore All</button>
+              <button className="popins-noweight font-semibold w-[calc(24vw+0px)] lg:w-[calc(9vw+0px)] bg-[#FDC000] py-[calc(0.5rem+0px)] rounded-md text-[#333333]">
+                Explore All
+              </button>
+
             </div>
             <div id="cont-fleet-img" className="relative mx-auto lg:mx-0 flex w-[95vw] lg:w-[40vw] lg:h-[43vh] overflow-hidden">
               <div className="flex animate-fleet-scroll">
@@ -145,17 +148,17 @@ const Landing = () => {
             <div className="border border-white/30 rounded-3xl w-fit font-[Poppins] text-[0.6rem] lg:text-[1.1rem] px-2 py-1 lg:px-6 lg:py-2 mt-3 lg:mt-5 
                  text-white bg-white/10 backdrop-blur-md hover:bg-white/20 transition-all duration-300 ml-3 lg:ml-5">Our Latest Project</div>
             <div className="flex flex-col gap-2 ml-4  lg:gap-2 lg:ml-8">
-              <p className="popins-bold text-[1rem] lg:text-[4rem] text-white lg:leading-20">Powering Your Future with <br /> Innovative Infrastructure <br /> Projects</p>
-              <p className="text-white text-[] lg:text-[20px]">SVB Infra – Engineering the Future of Infrastructure</p>
+              <p className="popins-bold text-[1rem] lg:text-[4rem] text-white lg:leading-18">Powering Your Future with <br /> Innovative Infrastructure <br /> Projects</p>
+              <p className="text-white text-[0.8rem] lg:text-[1.3rem]">SVB Infra – Engineering the Future of Infrastructure</p>
             </div>
-            <button className="lg:ml-8 ml-4 popins-bold text-[9px] lg:text-[17px]  lg:w-[10vw] w-[15vw] bg-[#FDC000] py-1  lg:py-3 rounded-sm lg:rounded-md mt-3  lg:mt-15">Explore All</button>
+            <button className="lg:ml-8 ml-4 popins-noweight font-semibold text-[9px] lg:text-[17px]  lg:w-[10vw] w-[15vw] bg-[#FDC000] py-1  lg:py-3 rounded-sm lg:rounded-md   lg:mt-15">Explore All</button>
           </div>
           <div className=" flex w-full py-2 lg:py-6 relative ">
             {isMobile ? <p className="text-[#4D4D4D] w-[40vw]  popins  text-[8px] lg:text-[16px] lg:mt-5 font-semibold ">We have successfully completed a wide range of  earthwork and excavation projects for leading  clients across Karnataka. Our portfolio includes  residential, commercial, and infrastructure  developments delivered with quality and precision.</p> :
-              <p className="text-[#4D4D4D] popins  text-[8px] lg:text-[16px] lg:mt-5 font-semibold ">We have successfully completed a wide range of <br /> earthwork and excavation projects for leading <br /> clients across Karnataka. Our portfolio includes <br /> residential, commercial, and infrastructure <br /> developments delivered with quality and precision.</p>}
+              <p className="text-[#4D4D4D] popins  text-[0.8rem] lg:text-[1rem] lg:mt-5 font-semibold ">We have successfully completed a wide range of <br /> earthwork and excavation projects for leading <br /> clients across Karnataka. Our portfolio includes <br /> residential, commercial, and infrastructure <br /> developments delivered with quality and precision.</p>}
             <div className="absolute  left-[42vw] lg:left-[39vw] -top-[11vw] lg:-top-[7vw] lg:w-[50vw] py-2 lg:py-4  overflow-hidden ">
 
-              <div className="flex lg:gap-x-6 gap-x-3 animate-scroll">
+              <div className="flex lg:gap-x-6 gap-x-2 animate-scroll">
 
                 <img src={c1} alt="" className="w-[17vw] h-[10vh] lg:w-[18vw] lg:h-[47vh]" />
                 <img src={c2} alt="" className="w-17vw] h-[10vh] lg:w-[18vw] lg:h-[47vh]" />
@@ -173,12 +176,20 @@ const Landing = () => {
           </div>
 
         </div>
-        <div id="landing-contact" className="lg:w-[78vw] w-[95vw]  text-white lg:h-[37vh]  mx-auto flex  place-items-center justify-evenly gap-17 lg:gap-70">
+        <div id="landing-contact" className="lg:w-[78vw] w-[95vw]  text-white lg:h-[37vh]  mx-auto flex  place-items-center justify-evenly gap-[4.2rem] lg:gap-70">
           <div>
             <p className="text-[0.8rem] lg:text-[1.5rem] popins-bold ">Let's Build Your Next Project Together</p>
-            <p className="popins-bold text-[1.2rem] lg:text-[3.5rem]">Contact With Us!</p>
+            <p className="fontMon font-bold text-[1.2rem] lg:text-[3.5rem]">Contact With Us!</p>
           </div>
-          <button className="lg:w-[9vw] w-[16vw] rounded-sm text-[10px] lg:text-[16px] h-[2vh] lg:h-[6vh] bg-[#FDC000] lg:rounded-lg">Contact Now</button>
+          <button
+            className="lg:w-[calc(9vw+0px)] w-[calc(16vw+0px)] 
+             rounded-sm lg:rounded-lg 
+             text-[calc(10px+0px)] lg:text-[calc(16px+0px)] 
+             h-[calc(2vh+0px)] lg:h-[calc(6vh+0px)] 
+             bg-[#FDC000]">
+            Contact Now
+          </button>
+
         </div>
       </div>
     </div>
