@@ -177,7 +177,7 @@ const Landing = () => {
 
         </div>
         <div id="landing-contact" className="lg:w-[78vw] w-[95vw]  text-white lg:h-[37vh]  mx-auto flex  place-items-center justify-evenly gap-[4.2rem] lg:gap-70">
-          <div>
+          <div className="px-3 lg:px-0">
             <p className="text-[0.9rem] lg:text-[1.5rem] popins-bold ">Let's Build Your Next Project Together</p>
             <p className="fontMon font-bold text-[1.4rem] lg:text-[3.5rem]">Contact With Us!</p>
           </div>
