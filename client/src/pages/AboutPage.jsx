@@ -31,7 +31,7 @@ const AboutPage = () => {
             <div>
                 <div id='aboutBanner' className='w-screen h-[45vh] lg:h-[95vh]'>
                     <div className='pl-[30px] pt-[100px] lg:pl-[120px] lg:pt-[150px]'>
-                        <p className='text-white text-[1.5rem] lg:text-[4rem]  aboutCom leading-8 lg:leading-19'> <span className='text-[#FDC000]'>SVB Infra</span> <br /> Building the Future with <br /> Experience and Excellence</p>
+                        <p className='text-white text-[1.7rem] lg:text-[4rem]  aboutCom leading-8 lg:leading-19'> <span className='text-[#FDC000]'>SVB Infra</span> <br /> Building the Future with <br /> Experience and Excellence</p>
                         <p className='popins text-[10px] lg:text-[20px] text-white mt-[18px]'>Providing fast, flexible, and professional earthmoving services statewide since 2003</p>
                         <button className='lg:mt-[40px] mt-[20px] w-[21vw] h-[3.2vh] text-[12px] lg:w-[9vw] lg:h-[7vh] bg-[#FDC000] text-[#333333] popins-noweight font-semibold lg:text-[20px] rounded-sm lg:rounded-lg '>Contact Us</button>
                     </div>

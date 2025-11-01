@@ -44,7 +44,7 @@ const Landing = () => {
         <div className="lg:pt-[120px] lg:pl-[110px] pl-[40px] pt-[60px]">
 
         <div className="flex flex-col  gap-[10px] lg:gap-[16px]">
-          <p className="text-[1.5rem] lg:text-[4rem] text-white aboutCom font-bold leading-8 lg:leading-19">Building the Future with <br /> <span className="text-[#FDC000]">Strength & Precision</span> </p>
+          <p className="text-[1.7rem] lg:text-[4rem] text-white aboutCom font-bold leading-8 lg:leading-19">Building the Future with <br /> <span className="text-[#FDC000]">Strength & Precision</span> </p>
           {isMobile?<p className="text-white text-[10px] lg:text-[20px] popins">Delivering reliable infrastructure solutions <br /> with modern machinery  and <br /> expert execution.</p>:
           <p className="text-white text-[20px] popins">Delivering reliable infrastructure solutions with modern machinery <br /> and expert execution.</p>}
         </div>
