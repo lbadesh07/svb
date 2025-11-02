@@ -40,7 +40,7 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col gap-5 lg:gap-8 w-fit mx-auto lg:mx-0 place-items-center lg:place-items-start'>
                         <p className='text-white text-[1rem] lg:text-[1.4rem] popins font-semibold underline decoration-[#FDC000] underline-offset-8'>Quick Links</p>
-                        <ul className='flex lg:flex-col gap-3 text-[0.7rem] lg:gap-4 lg:text-[0.9rem] text-white decoration-0'>
+                        <ul className='flex lg:flex-col gap-3 text-[0.8rem] lg:gap-4 lg:text-[0.9rem] text-white decoration-0'>
                             <li>About Us</li>
                             <li>Services</li>
                             <li>Our Fleet</li>
