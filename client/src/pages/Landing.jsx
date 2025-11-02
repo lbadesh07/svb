@@ -41,11 +41,13 @@ const Landing = () => {
     <div className="w-screen ">
       {/* <LandingBanner></LandingBanner> */}
       <div id="landingBanner" className="w-screen h-[45vh] lg:h-[88vh]">
-        <div className="lg:pt-[120px] lg:pl-[110px] pl-[40px] pt-[60px]">
+        <div className="pt-[calc(3rem+1vw)] pl-[calc(1.5rem+1vw)] 
+             lg:pt-[calc(6rem+1vw)] lg:pl-[calc(5rem+1vw)] 
+             flex flex-col justify-center ">
 
-          <div className="flex flex-col  gap-[10px] lg:gap-[16px]">
-            <p className="text-[1.8rem] lg:text-[4rem] text-white aboutCom font-bold leading-8 lg:leading-19">Building the Future with <br /> <span className="text-[#FDC000]">Strength & Precision</span> </p>
-            {isMobile ? <p className="text-white w-[88%]  text-[1rem] lg:text-[20px] popins">Delivering reliable infrastructure solutions  with modern machinery  and  expert execution.</p> :
+          <div className="flex flex-col  gap-[calc(0.5rem+0.4vw)]">
+            <p className="text-[calc(1.2rem+1vw)] lg:text-[calc(2.5rem+1.5vw)] text-white aboutCom font-bold leading-[calc(1.8rem+0.6vw)] lg:leading-[calc(3rem+1vw)]">Building the Future with <br /> <span className="text-[#FDC000]">Strength & Precision</span> </p>
+            {isMobile ? <p className="text-white w-[88%] text-[calc(0.9rem+0.3vw)]  popins leading-[calc(1.4rem+0.3vw)]">Delivering reliable infrastructure solutions  with modern machinery  and  expert execution.</p> :
               <p className="text-white text-[1.3rem] popins">Delivering reliable infrastructure solutions with modern machinery <br /> and expert execution.</p>}
           </div>
           <button className="lg:w-[10vw] lg:h-[7vh]  rounded-md text-[14px] px-3 lg:px-0 lg:py-0 py-2 lg:py-0  bg-[#FDC000] lg:rounded-md lg:text-[20px] popins-noweight font-semibold mt-[2.5rem]">See Our Fleet</button>
