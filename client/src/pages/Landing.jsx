@@ -53,27 +53,27 @@ const Landing = () => {
       </div>
 
 
-      <div className="flex flex-col  gap-[10vh] lg:gap-[20vh] my-15 lg:my-30  w-screen">
+      <div className="flex flex-col  gap-[10vh] lg:gap-[7.6rem] my-15 lg:my-30  w-screen">
         <div>
-          <section className="flex  flex-row w-full mx-2 lg:mx-0 lg:justify-center  text-gray-800  ">
+          <section className="flex flex-row w-full px-4 lg:mx-0 lg:justify-center  text-gray-800  ">
 
             <div className="">
               <img
                 src={constructionImg}
                 alt="Construction site"
-                className="rounded-2xl shadow-lg w-[50vw] h-[32vh] lg:w-[40vw] lg:h-[84vh]"
+                className="rounded-2xl shadow-lg w-[47vw] h-[30vh] lg:w-[40vw] lg:h-[84vh]"
               />
             </div>
 
 
-            <div className="lg:w-[33vw] w-[50vw]  h-fit  flex flex-col ">
-              <p className="fontMon lg:leading-16 text-[1.5rem] leading-7  lg:p-4 rounded-bl-2xl -ml-20 p-2 lg:-ml-56 bg-white  text-[#333333] lg:text-[4rem] font-semibold">
+            <div className="lg:w-[33vw] w-[50vw] h-fit  flex flex-col ">
+              <p className="fontMon lg:leading-20 text-[1.5rem] leading-7  lg:py-0 lg:px-2 rounded-bl-2xl -ml-20 p-2 lg:-ml-56 bg-white  text-[#333333] lg:text-[4rem] font-semibold">
                 Great Relationships,
                 <br /> Great <span></span>
                 <span className="text-[#FDC000]">Infrastructure</span>
               </p>
-              <div className="flex flex-col place-items-end">
-                <p className=" text-[#4D4D4D] popins lg:w-[32vw] text-[0.6rem] lg:text-[1.25rem] px-2 pt-2 lg:pl-5 lg:pt-10  ">
+              <div className="flex flex-col place-items-end gap-4   px-2 pt-2 lg:pt-10">
+                <p className=" text-[#4D4D4D] popins lg:w-[32vw] text-[0.6rem] lg:text-[1.25rem]  lg:pl-5   ">
                   <span className="font-semibold lg:mr-1">SVB Infra Projects</span>
                   is a 3rd generation family-run business. SVB has been managing
                   earthmoving projects since 2003. Based in Bangalore, we provide
@@ -92,7 +92,7 @@ const Landing = () => {
               </div>
             </div>
           </section>
-          <div className="flex gap-5 my-6 mx-auto lg:mx-0  lg:my-10 pl-[4vw] lg:pl-[9vw]">
+          <div className="flex gap-5 my-10 mx-auto lg:mx-0  lg:my-10 pl-[4vw] lg:pl-[9vw]">
             <div className="border lg:border-2 border-[#FDC000] rounded-md flex lg:w-[12vw] w-[27vw] justify-evenly h-[5vh]   lg:h-[11vh] place-items-center">
               <p className="popins text-lg lg:text-3xl font-semibold ">50+</p>
               <p className="popins font-medium text-[9px] lg:text-[15px] text-[#4D4D4D]  text-start">Successfull <br /> Project</p>
@@ -107,7 +107,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div className=" flex flex-col gap-10  ">
+        <div className=" flex flex-col gap-10 border-2 ">
           <p className="fontMon text-[1.2rem] lg:text-[1.9rem] lg:pl-[120px] pl-[1.9rem] font-semibold underline decoration-[#FDC000] underline-offset-8">Pillars of Trust</p>
           <img src={pillarImg} className="lg:w-[75vw] lg:h-[101vh] mx-4 lg:mx-auto " />
         </div>
@@ -124,7 +124,6 @@ const Landing = () => {
             </div>
             <div id="cont-fleet-img" className="relative mx-auto lg:mx-0 flex w-[95vw] lg:w-[40vw] lg:h-[43vh] overflow-hidden">
               <div className="flex animate-fleet-scroll">
-                {/* animate-fleet-scroll */}
                 <img src={fleet1} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
                 <img src={fleet2} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
                 <img src={fleet1} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />

@@ -32,7 +32,7 @@ const Footer = () => {
       }, []);
     return (
         <>
-            <div id='footer' className=' h-full lg:h-[80vh] w-screen '>
+            <div id='footer' className=' h-full lg:h-[80vh] w-screen mt-[6.3rem]'>
                 <div className=' lg:h-[65%] flex flex-col lg:flex-row justify-evenly pt-10 lg:pt-20 gap-10 lg:gap-40'>
                     <div className='flex flex-col gap-7'>
                         <img src={logo} className="w-[20vw] h-[7vh] lg:w-[9vw] lg:h-[9vh] mx-auto lg:mx-0" />
