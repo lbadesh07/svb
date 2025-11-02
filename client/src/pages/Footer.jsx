@@ -40,7 +40,7 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col gap-5 lg:gap-8 w-fit mx-auto lg:mx-0 place-items-center lg:place-items-start'>
                         <p className='text-white text-[1rem] lg:text-[1.4rem] popins font-semibold underline decoration-[#FDC000] underline-offset-8'>Quick Links</p>
-                        <ul className='flex lg:flex-col gap-5 lg:gap-4 text-white decoration-0'>
+                        <ul className='flex lg:flex-col gap-3 text-[0.7rem] lg:gap-4 lg:text-[0.9rem] text-white decoration-0'>
                             <li>About Us</li>
                             <li>Services</li>
                             <li>Our Fleet</li>
@@ -74,7 +74,7 @@ const Footer = () => {
                         <img src={yt} className='h-[3vh] lg:h-[4vh]' alt="" />
                         <img src={ins} className='h-[3vh] lg:h-[4vh]' alt="" />
                     </div>
-                    <p className='text-white popins text-[1rem] mb-4 lg:mb-0'>Copyright 2018 SVB Infra Projects. All right reserved.</p>
+                    <p className='text-white popins text-[0.5rem] lg:text-[0.8rem] mb-4 lg:mb-0'>Copyright 2018 SVB Infra Projects. All right reserved.</p>
                 </div>
             </div>
         </>
