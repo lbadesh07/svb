@@ -191,7 +191,7 @@ const Landing = () => {
           <button
             className="lg:w-[calc(9vw+0px)] w-[calc(16vw+0px)] 
              rounded-sm lg:rounded-lg 
-             text-[calc(0.8rem+0.3vw)] 
+             text-[calc(0.6rem+0.3vw)] 
              h-[calc(3vh+0px)] lg:h-[calc(6vh+0px)] 
              bg-[#FDC000] ">
             Contact Now
