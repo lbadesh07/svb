@@ -6,6 +6,12 @@ import "../CSS/Landing.css"
 import { useState, useEffect } from "react";
 import fleet1 from "../assets/fleet-img1.png"
 import fleet2 from "../assets/fleet-img2.png"
+import fleet3 from "../assets/fleet-img3.png"
+import fleet4 from "../assets/fleet-img4.png"
+import fleet5 from "../assets/fleet-img5.png"
+import fleet6 from "../assets/fleet-img6.png"
+import fleet7 from "../assets/fleet-img7.png"
+import fleet8 from "../assets/fleet-img8.png"
 import Cards from "./Cards";
 import c1 from "../assets/globalCard1.png"
 import c2 from "../assets/globalCard2.png"
@@ -55,7 +61,7 @@ const Landing = () => {
       </div>
 
 
-      <div className="flex flex-col  gap-[10vh] lg:gap-[7.6rem] my-15 lg:my-30  w-screen">
+      <div className="flex flex-col  gap-[10vh] lg:gap-[7.6rem] my-15 lg:my-30  w-screen bg-[#F8F8F8]">
         <div>
           <section className="flex flex-row w-full px-4 lg:mx-0 lg:justify-center  text-gray-800  ">
 
@@ -113,7 +119,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div className=" flex flex-col gap-10  ">
+        <div className=" flex flex-col gap-10  bg-[#F8F8F8]">
           <p className="fontMon text-[1.2rem] lg:text-[1.9rem] lg:pl-[120px] pl-[1.9rem] font-semibold underline decoration-[#FDC000] underline-offset-8">Pillars of Trust</p>
           <img src={pillarImg} className="lg:w-[75vw] lg:h-[101vh] mx-4 lg:mx-auto " />
         </div>
@@ -121,7 +127,7 @@ const Landing = () => {
           <p className="fontMon pl-[1.9rem] lg:pl-[120px] lg:text-[1.9rem] text-[1.2rem]  font-semibold underline decoration-[#FDC000] underline-offset-8">Our Fleet</p>
           <div className=" flex flex-col lg:flex-row  lg:mx-30 gap-7 lg:gap-5 lg:my-5">
             <div className="flex flex-col w-screen place-items-center lg:place-items-start  lg:w-[40vw] gap-4 lg:py-10 lg:gap-5  ">
-              <p className="fontMon bold leading-9 lg:leading-18  bg-white text-[#333333] text-[1.5rem] lg:text-[4rem] font-bold text-center lg:text-start">Force Behind <br /> Every <span className="text-[#FDC000]">Foundation</span></p>
+              <p className="fontMon bold leading-9 lg:leading-18  text-[#333333] text-[1.5rem] lg:text-[4rem] font-bold text-center lg:text-start bg-[#F8F8F8]">Force Behind <br /> Every <span className="text-[#FDC000]">Foundation</span></p>
               <p className="text-[#4D4D4D] text-[0.8rem] lg:text-[1rem] font-medium text-center lg:text-start ">Starting out with only one JCB 3D, we now keep a well- <br /> maintained fleet of trucks and equipment.</p>
               <button className="popins px-[calc(0.8rem+0.5vw)] py-[calc(0.4rem+0.3vw)] 
              text-[calc(0.8rem+0.3vw)] bg-[#FDC000] rounded-md 
@@ -130,24 +136,39 @@ const Landing = () => {
               </button>
 
             </div>
-            <div id="cont-fleet-img" className="relative mx-auto lg:mx-0 flex w-[95vw] lg:w-[40vw] lg:h-[43vh] overflow-hidden">
+            {/* <div id="cont-fleet-img" className="relative mx-auto lg:mx-0 flex w-[95vw] lg:w-[40vw] lg:h-[43vh] overflow-hidden">
               <div className="flex animate-fleet-scroll">
                 <img src={fleet1} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
                 <img src={fleet2} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                <img src={fleet3} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                <img src={fleet4} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                <img src={fleet5} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                <img src={fleet6} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                <img src={fleet7} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                
+                <img src={fleet8} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
                 <img src={fleet1} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
                 <img src={fleet2} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
-                <img src={fleet1} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
-                <img src={fleet2} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
-
-
-                <img src={fleet1} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
-                <img src={fleet2} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
-                <img src={fleet1} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
-                <img src={fleet2} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
-                <img src={fleet1} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
-                <img src={fleet2} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                <img src={fleet3} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                <img src={fleet4} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                <img src={fleet5} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                <img src={fleet6} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                <img src={fleet7} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
+                <img src={fleet8} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
               </div>
-            </div>
+            </div> */}
+            <div id="cont-fleet-img" className="relative mx-auto lg:mx-0 flex w-[95vw] lg:w-[40vw] lg:h-[43vh] overflow-hidden">
+  <div className="fleet-track">
+    {[fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8].map((src, i) => (
+      <img key={i} src={src} className="fleet-img" />
+    ))}
+    {/* Repeat again for seamless looping */}
+    {[fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8].map((src, i) => (
+      <img key={`dup-${i}`} src={src} className="fleet-img" />
+    ))}
+  </div>
+</div>
+
           </div>
         </div>
         <div className=" px-2 lg:px-40 ">
@@ -183,7 +204,7 @@ const Landing = () => {
           </div>
 
         </div>
-        <div id="landing-contact" className="lg:w-[78vw] w-[95vw] px-3 lg:px-0  text-white lg:h-[37vh]  mx-auto flex  place-items-center justify-evenly gap-[4.2rem] lg:gap-70">
+        <div id="landing-contact" className="lg:w-[78vw] w-[95vw] px-3 lg:px-0  text-white lg:h-[37vh]  mx-auto flex  place-items-center justify-evenly gap-[4.2rem] lg:gap-70 z-999">
           <div className="">
             <p className="text-[0.8rem] lg:text-[1.5rem] popins-bold ">Let's Build Your Next Project Together</p>
             <p className="fontMon font-bold text-[1.2rem] lg:text-[3.5rem]">Contact With Us!</p>

@@ -9,7 +9,11 @@ import PortFolio from "./pages/PortFolio";
 import Contactus from "./pages/Contactus";
 import HSE from "./pages/HSE";
 import Subpage1 from "./pages/Subpage1";
+import ESE from "./pages/ESE";
 import { Routes, Route } from "react-router-dom";
+import REP from "./pages/REP";
+import DS from "./pages/DS";
+import SRP from "./pages/SRP";
 
 const App = () => {
   return (
@@ -30,7 +34,10 @@ const App = () => {
         <Route path="/portfolio" element={<PortFolio></PortFolio>}/>
         <Route path="/contact" element={<Contactus></Contactus>}/>
         <Route path="/hse" element={<HSE></HSE>}/>
-        
+        <Route path="/ese" element={<ESE></ESE>}/>
+        <Route path="/rep" element={<REP></REP>}/>
+        <Route path="/ds" element={<DS></DS>}/>
+        <Route path="/srp" element={<SRP></SRP>}/>
       </Routes>
       {/* <Subpage1></Subpage1> */}
       {/* kjn */}

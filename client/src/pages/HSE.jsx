@@ -9,10 +9,29 @@ import ic1 from '../assets/infoCardIMG1.png'
 import ic2 from '../assets/infoCardIMG2.png'
 import ic3 from '../assets/infoCardIMG3.png'
 import ic4 from '../assets/infoCardIMG4.png'
+import { useState,useEffect } from 'react'
 
 
 
 const HSE = () => {
+    const [isMobile, setIsMobile] = useState(false);
+
+    const handleResize = () => {
+        const width = window.innerWidth;
+
+        if (width < 740) {
+            setIsMobile(true);
+        } else {
+            setIsMobile(false);
+        }
+    };
+
+    useEffect(() => {
+        handleResize(); // Run once when mounted
+        window.addEventListener("resize", handleResize);
+
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
     return (
         <>
             <div className='bg-[F8F8F8]'>
@@ -23,6 +42,7 @@ const HSE = () => {
                     </div>
                 </div>
 
+                {isMobile?
                 <div className="relative w-full  overflow-hidden -mt-20">
                     <div className="flex animate-scroll gap-[2px] lg:gap-[24px] min-w-full">
                         <img src={c1} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
@@ -35,6 +55,18 @@ const HSE = () => {
                         <img src={c4} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
                     </div>
                 </div>
+                :
+                <div className="relative w-full  overflow-hidden -mt-20">
+                    <div className="flex justify-center  gap-[2px] lg:gap-[1.5rem] min-w-full">
+                        <img src={c1} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
+                        <img src={c2} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
+                        <img src={c3} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
+                        <img src={c4} className="w-[47vw] h-[30vh] lg:w-[18vw] lg:h-[47vh] flex-shrink-0 scale-3d" />
+                    </div>
+                </div>
+
+                }
+
 
 
 
@@ -67,7 +99,7 @@ const HSE = () => {
                     </div>
                     <div className=' mx-2 md:mx-0 py-5 md:py-0 px-4 md:px-0 lg:w-[78vw] h-fit lg:h-[59vh] flex flex-col md:flex-row-reverse gap-7 lg:gap-[39px] rounded-lg justify-center place-items-center shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
                         <div>
-                            <img src={ic1} className="w-[85vw] h-[30vh] lg:w-[34vw] lg:h-[51vh]" />
+                            <img src={ic2} className="w-[85vw] h-[30vh] lg:w-[34vw] lg:h-[51vh]" />
                         </div>
                         <div className='flex flex-col gap-[10px] lg:gap-[20px]'>
                             <p className='text-[#333333] text-[1.4rem] lg:text-[2rem] fontMon font-semibold '>Commitment to health & safety</p>
@@ -83,7 +115,7 @@ const HSE = () => {
                     </div>
                     <div className='mx-2 md:mx-0 py-5 md:py-0 px-4 md:px-0 lg:w-[78vw] h-fit lg:h-[59vh] flex flex-col lg:flex-row gap-7 lg:gap-[39px] rounded-lg justify-center place-items-center shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
                         <div>
-                            <img src={ic1} className="w-[85vw] h-[30vh] lg:w-[34vw] lg:h-[51vh]" />
+                            <img src={ic3} className="w-[85vw] h-[30vh] lg:w-[34vw] lg:h-[51vh]" />
                         </div>
                         <div className='flex flex-col gap-[10px] lg:gap-[20px]'>
                             <p className='text-[#333333] text-[1.4rem] lg:text-[2rem] fontMon font-semibold '>Commitment to health & safety</p>
@@ -99,7 +131,7 @@ const HSE = () => {
                     </div>
                     <div className=' mx-2 md:mx-0 py-5 md:py-0 px-4 md:px-0 lg:w-[78vw] h-fit lg:h-[59vh] flex flex-col md:flex-row-reverse gap-7 lg:gap-[39px] rounded-lg justify-center place-items-center shadow-[0_0_20px_rgba(0,0,0,0.3)]'>
                         <div>
-                            <img src={ic1} className="w-[85vw] h-[30vh] lg:w-[34vw] lg:h-[51vh]" />
+                            <img src={ic4} className="w-[85vw] h-[30vh] lg:w-[34vw] lg:h-[51vh]" />
                         </div>
                         <div className='flex flex-col gap-[10px] lg:gap-[20px]'>
                             <p className='text-[#333333] text-[1.4rem] lg:text-[2rem] fontMon font-semibold '>Commitment to health & safety</p>

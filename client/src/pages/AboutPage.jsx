@@ -3,6 +3,10 @@ import '../CSS/About.css'
 import bgIMG from '../assets/aboutCompanyIMG.png'
 import LandingBanner from './LandingBanner'
 import icon1 from '../assets/aboutCardIcon1.png'
+import icon2 from '../assets/aboutCardIcon2.png'
+import icon3 from '../assets/aboutCardIcon3.png'
+import icon4 from '../assets/aboutCardIcon4.png'
+import icon5 from '../assets/aboutCardIcon5.png'
 import machineIMG from '../assets/aboutMachineImg.png'
 import { useState, useEffect } from 'react'
 
@@ -98,45 +102,45 @@ const AboutPage = () => {
                                     <div className='border lg:border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
                                         <img src={icon1} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
                                         <div className='flex flex-col gap-1 lg:gap-2'>
-                                            <p className='popins font-semibold text-[0.6rem] lg:text-[1.7rem]'>Modern Equipment</p>
-                                            <p className='text-[#4D4D4D] text-[7px] lg:text-[1rem]'>Advanced equipment for every <br /> project need</p>
+                                            <p className='fontMon font-semibold  text-[0.6rem] lg:text-[1.8rem]'>Modern Equipment</p>
+                                            <p className='text-[#4D4D4D] text-[7px] lg:text-[1.3rem] popins-noweight'>Advanced equipment for every <br /> project need</p>
                                         </div>
                                     </div>
                                     <div className='border lg:border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
-                                        <img src={icon1} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
+                                        <img src={icon2} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
                                         <div className='flex flex-col gap-1 lg:gap-2'>
-                                            <p className='popins font-semibold text-[0.6rem] lg:text-[1.7rem]'>Modern Equipment</p>
-                                            <p className='text-[#4D4D4D] text-[7px] lg:text-[1rem]'>Advanced equipment for every <br /> project need</p>
+                                            <p className='fontMon font-semibold text-[0.6rem] lg:text-[1.8rem]'>Client Priority</p>
+                                            <p className='text-[#4D4D4D] text-[7px] lg:text-[1.3rem] popins-noweight'>Building strong partnerships with tailored  client solutions</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className='flex gap-2 lg:gap-14'>
                                     <div className='border lg:border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
-                                        <img src={icon1} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
+                                        <img src={icon3} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
                                         <div className='flex flex-col gap-1 lg:gap-2'>
-                                            <p className='popins font-semibold text-[0.6rem] lg:text-[1.7rem]'>Modern Equipment</p>
-                                            <p className='text-[#4D4D4D] text-[7px] lg:text-[1rem]'>Advanced equipment for every <br /> project need</p>
+                                            <p className='fontMon font-semibold text-[0.6rem] lg:text-[1.8rem]'>Experienced Team</p>
+                                            <p className='text-[#4D4D4D] text-[7px] lg:text-[1.3rem] popins-noweight'>Expert Team Ensuring  Superior <br /> Outcomes</p>
                                         </div>
                                     </div>
                                     <div className='border lg:border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
-                                        <img src={icon1} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
+                                        <img src={icon4} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
                                         <div className='flex flex-col gap-1 lg:gap-2'>
-                                            <p className='popins font-semibold text-[0.6rem] lg:text-[1.7rem]'>Modern Equipment</p>
-                                            <p className='text-[#4D4D4D] text-[7px] lg:text-[1rem]'>Advanced equipment for every <br /> project need</p>
+                                            <p className='fontMon font-semibold text-[0.6rem] lg:text-[1.8rem]'>Safety Priority</p>
+                                            <p className='text-[#4D4D4D] text-[7px] lg:text-[1.3rem] popins-noweight'>Safety is our top priority  in every <br /> project.</p>
                                         </div>
                                     </div>
                                     <div className='border lg:border-2 border-[#FDC000] lg:w-[23vw] w-[30vw] h-[10vh] lg:h-[30vh] rounded-lg lg:rounded-xl py-3 lg:py-6 pl-3 lg:pl-5 flex flex-col gap-2 lg:gap-4'>
-                                        <img src={icon1} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
+                                        <img src={icon5} className="w-[4vw] h-[2vh] lg:w-[4vw] lg:h-[7vh]" />
                                         <div className='flex flex-col gap-1 lg:gap-2'>
-                                            <p className='popins font-semibold text-[0.6rem] lg:text-[1.7rem]'>Modern Equipment</p>
-                                            <p className='text-[#4D4D4D] text-[7px] lg:text-[1rem]'>Advanced equipment for every <br /> project need</p>
+                                            <p className='fontMon font-semibold text-[0.6rem] lg:text-[1.8rem]'>Reliable Results</p>
+                                            <p className='text-[#4D4D4D] text-[7px] lg:text-[1.3rem] popins-noweight'>Trusted since 2003, delivering  projects  across Karnataka</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className='h-fit absolute left-65 lg:left-auto lg:-right-20 -top-18 lg:-top-32 '>
-                            <img src={machineIMG} className=" w-[58vw] h-[40vh]  lg:w-[38vw] lg:h-[98vh] rotate-1 " />
+                        <div className='h-fit absolute left-65 lg:left-auto lg:-right-20 -top-18 lg:-top-62 '>
+                            <img src={machineIMG} className=" w-[74vw] h-[40vh]  lg:w-[38vw] lg:h-[98vh] rotate-1 " />
                         </div>
                     </div>
                 </div>

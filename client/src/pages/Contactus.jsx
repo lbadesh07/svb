@@ -8,8 +8,50 @@ import address from "../assets/address_marker_black.png"
 import lin from '../assets/contact-in-icon.png'
 import yt from '../assets/contact-yt-icon.png'
 import ins from '../assets/contact-ins-icon.png'
+import { useState } from 'react'
 
 const Contactus = () => {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        phone: "",
+        address: "",
+        message: "",
+    });
+
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        try {
+            const response = await fetch("http://localhost:5000/clientRequest", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                alert("Message sent successfully!");
+                setFormData({
+                    name: "",
+                    email: "",
+                    phone: "",
+                    address: "",
+                    message: "",
+                });
+            } else {
+                alert("Failed to send message. Please try again later.");
+            }
+        } catch (error) {
+            console.error("Error:", error);
+            alert("Something went wrong. Please check your connection.");
+        }
+    };
 
     return (
         <>
@@ -50,17 +92,31 @@ const Contactus = () => {
                             </div>
                             <div className='   w-[90vw] lg:w-[30vw]  lg:px-0 pl-[12px]  lg:pl-[20px]'>
                                 {/* <p className='contactUSBannerInfoTitle text-[#333333] font-semibold text-[2rem] mb-[50px]'>Send us a message</p> */}
-                                <form action="" className='  w-full lg:w-[30vw]  flex flex-col'>
+                                <form action="" onSubmit={handleSubmit} className='  w-full lg:w-[30vw]  flex flex-col'>
                                     <div className='flex flex-wrap   w-full gap-2 lg:gap-5'>
-                                        <input type="text" placeholder='Name' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
-                                        <input type="email" placeholder='Email' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
-                                        <input type="tel" placeholder='Phone' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
-                                        <input type="text" placeholder='Address' className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
+                                        <input type="text" name="name"
+                                            placeholder="Name"
+                                            value={formData.name}
+                                            onChange={handleChange} className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
+                                        <input type="email" name="email"
+                                            placeholder="Email"
+                                            value={formData.email}
+                                            onChange={handleChange} className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
+                                        <input type="tel" name="phone"
+                                            placeholder="Phone"
+                                            value={formData.phone}
+                                            onChange={handleChange} className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
+                                        <input type="text" name="address"
+                                            placeholder="Address"
+                                            value={formData.address}
+                                            onChange={handleChange} className='px-3 lg:px-4 w-[40vw] h-[4vh] lg:w-[13vw] lg:h-[7vh] border rounded-md placeholder:text-sm lg:placeholder:text-base' />
                                     </div>
-                                    <textarea className='lg:w-[27.2vw] w-[82vw] lg:h-[14vh] p-3 rounded-md mt-5 border' placeholder='Message' name="" id=""></textarea>
+                                    <textarea name="message"
+                                        value={formData.message}
+                                        onChange={handleChange} className='lg:w-[27.2vw] w-[82vw] lg:h-[14vh] p-3 rounded-md mt-5 border' placeholder='Message' id=""></textarea>
                                     <div className=' w-full    lg:w-[27.2vw] flex justify-end mt-[33px]'>
 
-                                        <button className='contactUSBannerFormButton font-semibold text-[#333333] w-[60vw] h-[4vh] lg:w-[9vw] lg:h-[6vh] rounded-md bg-[#FDC000] mx-auto lg:mx-0'>Send Now</button>
+                                        <button type="submit" className='contactUSBannerFormButton font-semibold text-[#333333] w-[60vw] h-[4vh] lg:w-[9vw] lg:h-[6vh] rounded-md bg-[#FDC000] mx-auto lg:mx-0'>Send Now</button>
                                     </div>
                                 </form>
                             </div>
