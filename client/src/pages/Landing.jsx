@@ -86,9 +86,13 @@ const Landing = () => {
                   sector.
                 </p>
                 <button
-                  className="popins  w-[calc(19vw+0px)] lg:w-[calc(9vw+0px)] mr-3 text-[calc(0.8rem+0px)] lg:text-[calc(1.3rem+0px)] bg-[#FDC000] py-[calc(0.5rem+0px)] rounded-md
-             ">Know More
+                  className="popins mr-3 px-[calc(0.8rem+0.5vw)] py-[calc(0.4rem+0.3vw)] 
+             text-[calc(0.8rem+0.3vw)] bg-[#FDC000] rounded-md 
+             hover:bg-[#ffcf33] transition-all duration-300"
+                >
+                  Know More
                 </button>
+
               </div>
             </div>
           </section>
@@ -107,7 +111,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div className=" flex flex-col gap-10 border-2 ">
+        <div className=" flex flex-col gap-10  ">
           <p className="fontMon text-[1.2rem] lg:text-[1.9rem] lg:pl-[120px] pl-[1.9rem] font-semibold underline decoration-[#FDC000] underline-offset-8">Pillars of Trust</p>
           <img src={pillarImg} className="lg:w-[75vw] lg:h-[101vh] mx-4 lg:mx-auto " />
         </div>
