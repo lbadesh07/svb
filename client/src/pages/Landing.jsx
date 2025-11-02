@@ -185,13 +185,15 @@ const Landing = () => {
         </div>
         <div id="landing-contact" className="lg:w-[78vw] w-[95vw] px-3 lg:px-0  text-white lg:h-[37vh]  mx-auto flex  place-items-center justify-evenly gap-[4.2rem] lg:gap-70">
           <div className="">
-            <p className="text-[0.7rem] lg:text-[1.5rem] popins-bold ">Let's Build Your Next Project Together</p>
-            <p className="fontMon font-bold text-[1.3rem] lg:text-[3.5rem]">Contact With Us!</p>
+            <p className="text-[0.8rem] lg:text-[1.5rem] popins-bold ">Let's Build Your Next Project Together</p>
+            <p className="fontMon font-bold text-[1.2rem] lg:text-[3.5rem]">Contact With Us!</p>
           </div>
           <button
-            className="popins px-[calc(0.10rem+0.6vw)] py-[calc(0.2rem+0.3vw)] 
-             text-[calc(0.8rem+0.3vw)] bg-[#FDC000] rounded-md 
-             hover:bg-[#ffcf33] transition-all duration-300">
+            className="lg:w-[calc(9vw+0px)] w-[calc(17vw+0px)] 
+             rounded-sm lg:rounded-lg 
+             text-[calc(9px+0px)] lg:text-[calc(16px+0px)] 
+             h-[calc(3vh+0px)] lg:h-[calc(6vh+0px)] 
+             bg-[#FDC000] ">
             Contact Now
           </button>
 
