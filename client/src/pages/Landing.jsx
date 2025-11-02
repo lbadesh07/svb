@@ -151,12 +151,12 @@ const Landing = () => {
           </div>
         </div>
         <div className=" px-2 lg:px-40 ">
-          <div id="infrastructure" className=" flex flex-col gap-y-8 lg:gap-y-20 w-[96vw] lg:w-[80vw] h-[30vh] lg:h-[87vh] z-10">
+          <div id="infrastructure" className=" flex flex-col gap-y-5 lg:gap-y-20 w-[96vw] lg:w-[80vw] h-[30vh] lg:h-[87vh] z-10">
             <div className="border border-white/30 rounded-3xl w-fit font-[Poppins] text-[0.6rem] lg:text-[1.1rem] px-2 py-1 lg:px-6 lg:py-2 mt-3 lg:mt-5 
                  text-white bg-white/10 backdrop-blur-md hover:bg-white/20 transition-all duration-300 ml-3 lg:ml-5">Our Latest Project</div>
             <div className="flex flex-col gap-2 ml-4  lg:gap-2 lg:ml-8">
               <p className="popins-bold text-[1rem] lg:text-[4rem] text-white lg:leading-18">Powering Your Future with <br /> Innovative Infrastructure <br /> Projects</p>
-              <p className="text-white text-[0.8rem] lg:text-[1.3rem]">SVB Infra – Engineering the Future of Infrastructure</p>
+              <p className="text-white text-[0.7rem] lg:text-[1.3rem]">SVB Infra – Engineering the Future of Infrastructure</p>
             </div>
             <button className="lg:ml-8 ml-4 popins-noweight font-semibold text-[9px] lg:text-[17px]  lg:w-[10vw] w-[15vw] bg-[#FDC000] py-1  lg:py-3 rounded-sm lg:rounded-md   lg:mt-15">Explore All</button>
           </div>
