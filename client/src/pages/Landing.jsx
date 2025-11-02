@@ -122,8 +122,10 @@ const Landing = () => {
           <div className=" flex flex-col lg:flex-row  lg:mx-30 gap-7 lg:gap-5 lg:my-5">
             <div className="flex flex-col w-screen place-items-center lg:place-items-start  lg:w-[40vw] gap-4 lg:py-10 lg:gap-5  ">
               <p className="fontMon bold leading-9 lg:leading-18  bg-white text-[#333333] text-[1.5rem] lg:text-[4rem] font-bold text-center lg:text-start">Force Behind <br /> Every <span className="text-[#FDC000]">Foundation</span></p>
-              <p className="text-[#4D4D4D] text-[1rem] font-medium text-center lg:text-start ">Starting out with only one JCB 3D, we now keep a well- <br /> maintained fleet of trucks and equipment.</p>
-              <button className="popins-noweight font-semibold w-[calc(24vw+0px)] lg:w-[calc(9vw+0px)] bg-[#FDC000] py-[calc(0.5rem+0px)] rounded-md text-[#333333]">
+              <p className="text-[#4D4D4D] text-[0.8rem] lg:text-[1rem] font-medium text-center lg:text-start ">Starting out with only one JCB 3D, we now keep a well- <br /> maintained fleet of trucks and equipment.</p>
+              <button className="popins px-[calc(0.8rem+0.5vw)] py-[calc(0.4rem+0.3vw)] 
+             text-[calc(0.8rem+0.3vw)] bg-[#FDC000] rounded-md 
+             hover:bg-[#ffcf33] transition-all duration-300">
                 Explore All
               </button>
 
