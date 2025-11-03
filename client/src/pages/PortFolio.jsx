@@ -82,7 +82,7 @@ const PortFolio = () => {
                         Our Latest Projects
                     </p>
 
-                    <div className="relative  w-[92vw] mx-auto lg:mx-0 lg:w-[92vw] lg:ml-[60px] lg:mr-[60px] overflow-hidden  rounded-xl flex gap-2 lg:gap-4 py-4">
+                    <div className="relative  w-[92vw] mx-auto lg:mx-0 lg:w-[92vw] lg:ml-[60px] lg:mr-[60px] overflow-hidden  rounded-xl flex gap-2 lg:gap-[40px] py-4">
                         {[
                             c1, c2, c3, c4, c5,
                             c6, c7, c8, c9, c10,

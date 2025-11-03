@@ -44,19 +44,19 @@ const Landing = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
   return (
-    <div className="w-screen ">
+    <div className="w-screen bg-[#F8F8F8]">
       {/* <LandingBanner></LandingBanner> */}
-      <div id="landingBanner" className="w-screen h-[45vh] lg:h-[88vh]">
+      <div id="landingBanner" className="w-screen h-[45vh] z-[600px] lg:h-[88vh] ">
         <div className="pt-[calc(3rem+1vw)] pl-[calc(1.5rem+1vw)] 
              lg:pt-[calc(6rem+1vw)] lg:pl-[calc(5rem+1vw)] 
              flex flex-col justify-center ">
 
-          <div className="flex flex-col  gap-[calc(0.5rem+0.4vw)]">
+          <div className="flex flex-col  gap-[calc(0.5rem+0.4vw)]  z-999">
             <p className="text-[calc(1.2rem+1vw)] lg:text-[calc(2.5rem+1.5vw)] text-white aboutCom font-bold leading-[calc(1.8rem+0.6vw)] lg:leading-[calc(3rem+1vw)]">Building the Future with <br /> <span className="text-[#FDC000]">Strength & Precision</span> </p>
             {isMobile ? <p className="text-white w-[88%] text-[calc(0.9rem+0.3vw)]  popins leading-[calc(1.4rem+0.3vw)]">Delivering reliable infrastructure solutions  with modern machinery  and  expert execution.</p> :
               <p className="text-white text-[1.3rem] popins">Delivering reliable infrastructure solutions with modern machinery <br /> and expert execution.</p>}
           </div>
-          <button className="w-[30vw] lg:w-[10vw] lg:h-[7vh]  rounded-md text-[0.7rem] px-3 lg:px-0 lg:py-0 py-2 lg:py-0  bg-[#FDC000] lg:rounded-md lg:text-[20px] popins-noweight font-semibold mt-[2.5rem]">See Our Fleet</button>
+          <button className="w-[30vw] lg:w-[10vw] lg:h-[7vh] z-999 rounded-md text-[0.7rem] px-3 lg:px-0 lg:py-0 py-2 lg:py-0  bg-[#FDC000] lg:rounded-md lg:text-[20px] popins-noweight font-semibold mt-[2.5rem]">See Our Fleet</button>
         </div>
       </div>
 
@@ -157,17 +157,24 @@ const Landing = () => {
                 <img src={fleet8} className="lg:w-[18vw] lg:h-[43vh] w-[46vw] h-[20vh]" />
               </div>
             </div> */}
-            <div id="cont-fleet-img" className="relative mx-auto lg:mx-0 flex w-[95vw] lg:w-[40vw] lg:h-[43vh] overflow-hidden">
-  <div className="fleet-track">
-    {[fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8].map((src, i) => (
-      <img key={i} src={src} className="fleet-img" />
-    ))}
-    {/* Repeat again for seamless looping */}
-    {[fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8].map((src, i) => (
-      <img key={`dup-${i}`} src={src} className="fleet-img" />
-    ))}
-  </div>
-</div>
+           <div id="cont-fleet-img" className="relative flex w-[40vw] h-[43vh] overflow-hidden">
+              <div className="flex animate-fleet-scroll">
+                <img src={fleet1} className="w-[18vw] h-[43vh]" />
+                <img src={fleet2} className="w-[18vw] h-[43vh]" />
+                <img src={fleet1} className="w-[18vw] h-[43vh]" />
+                <img src={fleet1} className="w-[18vw] h-[43vh]" />
+                <img src={fleet2} className="w-[18vw] h-[43vh]" />
+                <img src={fleet1} className="w-[18vw] h-[43vh]" />
+
+        
+                <img src={fleet1} className="w-[18vw] h-[43vh]" />
+                <img src={fleet2} className="w-[18vw] h-[43vh]" />
+                <img src={fleet1} className="w-[18vw] h-[43vh]" />
+                <img src={fleet1} className="w-[18vw] h-[43vh]" />
+                <img src={fleet2} className="w-[18vw] h-[43vh]" />
+                <img src={fleet1} className="w-[18vw] h-[43vh]" />
+              </div>
+            </div>
 
           </div>
         </div>
